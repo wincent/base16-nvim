@@ -230,6 +230,12 @@ highlight("jsGlobalNodeObjects", gui0A, "", cterm0A, "", "", "")
 highlight("jsExceptions",        gui0A, "", cterm0A, "", "", "")
 highlight("jsBuiltins",          gui0A, "", cterm0A, "", "", "")
 
+-- LSP highlighting
+highlight("LspDiagnosticsDefaultError", gui08, "", cterm08, "", "", "")
+highlight("LspDiagnosticsDefaultWarning", gui09, "", cterm09, "", "", "")
+highlight("LspDiagnosticsDefaultHnformation", gui05, "", cterm05, "", "", "")
+highlight("LspDiagnosticsDefaultHint", gui03, "", cterm03, "", "", "")
+
 -- Mail highlighting
 highlight("mailQuoted1",  gui0A, "", cterm0A, "", "", "")
 highlight("mailQuoted2",  gui0B, "", cterm0B, "", "", "")
