@@ -4,7 +4,7 @@ A Lua port of [base16-vim](https://github.com/chriskempson/base16-vim) for [Neov
 
 ## Update procedure
 
-In to always be testing the latest and greatest version of these color schemes, I add this repo as a submodule to [my dotfiles repository](https://github.com/wincent/wincent), and work out of there. [The script for actually rebuilding schemes](https://github.com/wincent/wincent/blob/main/support/base16-builder.rb) is stored in the superproject.
+In order to always be testing the latest and greatest version of these color schemes, I add this repo as a submodule to [my dotfiles repository](https://github.com/wincent/wincent), and work out of there. [The script for actually rebuilding schemes](https://github.com/wincent/wincent/blob/main/support/base16-builder.rb) is stored in the superproject.
 
 ### Tracking upstream template updates
 
