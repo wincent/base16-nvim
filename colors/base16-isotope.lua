@@ -51,10 +51,15 @@ local highlight = function(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
 
   local command = ""
 
-  if guifg ~= "" then
+  -- See `:help highlight-guifg`.
+  if guifg == "NONE" or guifg == "bg" or guifg == "background" or guifg == "fg" or guifg == "foreground" then
+    command = command .. " guifg=" .. guifg
+  elseif guifg ~= "" then
     command = command .. " guifg=#" .. guifg
   end
-  if guibg ~= "" then
+  if guibg == "NONE" or guibg == "bg" or guibg == "background" or guibg == "fg" or guibg == "foreground" then
+    command = command .. " guibg=" .. guibg
+  elseif guibg ~= "" then
     command = command .. " guibg=#" .. guibg
   end
   if ctermfg ~= "" then
@@ -66,7 +71,9 @@ local highlight = function(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   if attr ~= "" then
     command = command .. " gui=" .. attr .. " cterm=" .. attr
   end
-  if guisp ~= "" then
+  if guisp == "NONE" or guisp == "bg" or guisp == "background" or guisp == "fg" or guisp == "foreground" then
+    command = command .. " guisp=" .. guisp
+  elseif guisp ~= "" then
     command = command .. " guisp=#" .. guisp
   end
 
