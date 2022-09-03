@@ -3,24 +3,24 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- tender scheme by Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+-- Gruber scheme by Patel, Nimai <nimai.m.patel@gmail.com>, colors from www.github.com/rexim/gruber-darker-theme
 
-local gui00 = "282828"
-local gui01 = "383838"
-local gui02 = "484848"
-local gui03 = "4c4c4c"
-local gui04 = "b8b8b8"
-local gui05 = "eeeeee"
-local gui06 = "e8e8e8"
-local gui07 = "feffff"
-local gui08 = "f43753"
-local gui09 = "dc9656"
-local gui0A = "ffc24b"
-local gui0B = "c9d05c"
-local gui0C = "73cef4"
-local gui0D = "b3deef"
-local gui0E = "d3b987"
-local gui0F = "a16946"
+local gui00 = "181818"
+local gui01 = "453d41"
+local gui02 = "665c7f"
+local gui03 = "9dae93"
+local gui04 = "e4e4ef"
+local gui05 = "f4f4ff"
+local gui06 = "f5f5f5"
+local gui07 = "e4e4ef"
+local gui08 = "f43841"
+local gui09 = "c73c3f"
+local gui0A = "ffdd33"
+local gui0B = "73c936"
+local gui0C = "95a99f"
+local gui0D = "96a6c8"
+local gui0E = "9e95c7"
+local gui0F = "cc8c3c"
 
 local cterm00 = "00"
 local cterm03 = "08"
@@ -43,7 +43,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "base16-tender"
+vim.g.colors_name = "base16-gruber"
 
 local highlight = function(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   attr = attr or ""

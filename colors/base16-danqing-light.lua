@@ -3,24 +3,24 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- tender scheme by Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+-- DanQing Light scheme by Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
 
-local gui00 = "282828"
-local gui01 = "383838"
-local gui02 = "484848"
-local gui03 = "4c4c4c"
-local gui04 = "b8b8b8"
-local gui05 = "eeeeee"
-local gui06 = "e8e8e8"
-local gui07 = "feffff"
-local gui08 = "f43753"
-local gui09 = "dc9656"
-local gui0A = "ffc24b"
-local gui0B = "c9d05c"
-local gui0C = "73cef4"
-local gui0D = "b3deef"
-local gui0E = "d3b987"
-local gui0F = "a16946"
+local gui00 = "fcfefd"
+local gui01 = "ecf6f2"
+local gui02 = "e0f0eF"
+local gui03 = "cad8d2"
+local gui04 = "9da8a3"
+local gui05 = "5a605d"
+local gui06 = "434846"
+local gui07 = "2d302f"
+local gui08 = "F9906F"
+local gui09 = "B38A61"
+local gui0A = "F0C239"
+local gui0B = "8AB361"
+local gui0C = "30DFF3"
+local gui0D = "B0A4E3"
+local gui0E = "CCA4E3"
+local gui0F = "CA6924"
 
 local cterm00 = "00"
 local cterm03 = "08"
@@ -43,7 +43,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "base16-tender"
+vim.g.colors_name = "base16-danqing-light"
 
 local highlight = function(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   attr = attr or ""

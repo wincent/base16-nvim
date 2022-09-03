@@ -3,24 +3,24 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- tender scheme by Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+-- Vice Dark scheme by Thomas Leon Highbaugh
 
-local gui00 = "282828"
-local gui01 = "383838"
-local gui02 = "484848"
-local gui03 = "4c4c4c"
-local gui04 = "b8b8b8"
-local gui05 = "eeeeee"
-local gui06 = "e8e8e8"
-local gui07 = "feffff"
-local gui08 = "f43753"
-local gui09 = "dc9656"
-local gui0A = "ffc24b"
-local gui0B = "c9d05c"
-local gui0C = "73cef4"
-local gui0D = "b3deef"
-local gui0E = "d3b987"
-local gui0F = "a16946"
+local gui00 = "17191E"
+local gui01 = "22262d"
+local gui02 = "3c3f4c"
+local gui03 = "383a47"
+local gui04 = "555e70"
+local gui05 = "8b9cbe"
+local gui06 = "B2BFD9"
+local gui07 = "f4f4f7"
+local gui08 = "ff29a8"
+local gui09 = "85ffe0"
+local gui0A = "f0ffaa"
+local gui0B = "0badff"
+local gui0C = "8265ff"
+local gui0D = "00eaff"
+local gui0E = "00f6d9"
+local gui0F = "ff3d81"
 
 local cterm00 = "00"
 local cterm03 = "08"
@@ -43,7 +43,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "base16-tender"
+vim.g.colors_name = "base16-vice"
 
 local highlight = function(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   attr = attr or ""
