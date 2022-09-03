@@ -2,7 +2,7 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
 -- Silk Light scheme by Gabriel Fontes (https://github.com/Misterio77)
 
 local gui00 = "E9F1EF"

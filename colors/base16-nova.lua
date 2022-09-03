@@ -2,7 +2,7 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
 -- Nova scheme by George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
 
 local gui00 = "3C4C55"

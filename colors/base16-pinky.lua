@@ -2,7 +2,7 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
 -- pinky scheme by Benjamin (https://github.com/b3nj5m1n)
 
 local gui00 = "171517"

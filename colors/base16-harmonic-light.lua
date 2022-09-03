@@ -2,7 +2,7 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
 -- Harmonic16 Light scheme by Jannik Siebert (https://github.com/janniks)
 
 local gui00 = "f7f9fb"

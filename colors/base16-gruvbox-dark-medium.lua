@@ -2,7 +2,7 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
 -- Gruvbox dark, medium scheme by Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 
 local gui00 = "282828"

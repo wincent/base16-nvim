@@ -2,8 +2,8 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
--- Cupcake scheme by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
+-- Cupcake scheme by Chris Kempson (https://github.com/chriskempson)
 
 local gui00 = "fbf1f2"
 local gui01 = "f2f1f4"

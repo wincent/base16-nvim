@@ -2,8 +2,8 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
--- Bright scheme by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
+-- Bright scheme by Chris Kempson (https://github.com/chriskempson)
 
 local gui00 = "000000"
 local gui01 = "303030"

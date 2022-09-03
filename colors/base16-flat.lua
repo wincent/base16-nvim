@@ -2,8 +2,8 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
--- Flat scheme by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
+-- Flat scheme by Chris Kempson (https://github.com/chriskempson)
 
 local gui00 = "2C3E50"
 local gui01 = "34495E"

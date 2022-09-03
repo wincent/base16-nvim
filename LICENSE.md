@@ -1,4 +1,4 @@
-Copyright (c) 2012-present Chris Kempson (http://chriskempson.com)
+Copyright (c) 2012-present Chris Kempson (https://github.com/chriskempson)
 Copyright (c) 2021-present Greg Hurrell
 Copyright (c) 2021-present base16-nvim contributors
 

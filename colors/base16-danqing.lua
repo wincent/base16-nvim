@@ -2,7 +2,7 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
 -- DanQing scheme by Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
 
 local gui00 = "2d302f"

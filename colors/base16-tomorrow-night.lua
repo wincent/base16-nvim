@@ -2,8 +2,8 @@
 -- by Greg Hurrell (https://github.com/wincent)
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (http://chriskempson.com)
--- Tomorrow Night scheme by Chris Kempson (http://chriskempson.com)
+-- by Chris Kempson (https://github.com/chriskempson)
+-- Tomorrow Night scheme by Chris Kempson (https://github.com/chriskempson)
 
 local gui00 = "1d1f21"
 local gui01 = "282a2e"
