@@ -3,24 +3,24 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- Rosé Pine Moon scheme by Emilia Dunfelt <sayhi@dunfelt.se>
+-- Rosé Pine Moon scheme by Emilia Dunfelt <edun@dunfelt.se>
 
 local gui00 = "#232136"
 local gui01 = "#2a273f"
 local gui02 = "#393552"
-local gui03 = "#59546d"
-local gui04 = "#817c9c"
+local gui03 = "#6e6a86"
+local gui04 = "#908caa"
 local gui05 = "#e0def4"
-local gui06 = "#f5f5f7"
-local gui07 = "#d9d7e1"
-local gui08 = "#ecebf0"
-local gui09 = "#eb6f92"
-local gui0A = "#f6c177"
-local gui0B = "#ea9a97"
-local gui0C = "#3e8fb0"
-local gui0D = "#9ccfd8"
-local gui0E = "#c4a7e7"
-local gui0F = "#b9b9bc"
+local gui06 = "#e0def4"
+local gui07 = "#56526e"
+local gui08 = "#eb6f92"
+local gui09 = "#f6c177"
+local gui0A = "#ea9a97"
+local gui0B = "#3e8fb0"
+local gui0C = "#9ccfd8"
+local gui0D = "#c4a7e7"
+local gui0E = "#f6c177"
+local gui0F = "#56526e"
 
 local cterm00 = 0
 local cterm03 = 8

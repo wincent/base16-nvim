@@ -3,24 +3,24 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- Rosé Pine Dawn scheme by Emilia Dunfelt <sayhi@dunfelt.se>
+-- Rosé Pine Dawn scheme by Emilia Dunfelt <edun@dunfelt.se>
 
 local gui00 = "#faf4ed"
 local gui01 = "#fffaf3"
 local gui02 = "#f2e9de"
 local gui03 = "#9893a5"
-local gui04 = "#6e6a86"
+local gui04 = "#797593"
 local gui05 = "#575279"
-local gui06 = "#555169"
-local gui07 = "#26233a"
-local gui08 = "#1f1d2e"
-local gui09 = "#b4637a"
-local gui0A = "#ea9d34"
-local gui0B = "#d7827e"
-local gui0C = "#286983"
-local gui0D = "#56949f"
-local gui0E = "#907aa9"
-local gui0F = "#c5c3ce"
+local gui06 = "#575279"
+local gui07 = "#cecacd"
+local gui08 = "#b4637a"
+local gui09 = "#ea9d34"
+local gui0A = "#d7827e"
+local gui0B = "#286983"
+local gui0C = "#56949f"
+local gui0D = "#907aa9"
+local gui0E = "#ea9d34"
+local gui0F = "#cecacd"
 
 local cterm00 = 0
 local cterm03 = 8
