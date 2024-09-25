@@ -3,7 +3,7 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- Horizon Light scheme by Michaël Ball (http://github.com/michael-ball/)
+-- Horizon Terminal Light scheme by Michaël Ball (http://github.com/michael-ball/)
 
 local gui00 = "#FDF0ED"
 local gui01 = "#FADAD1"

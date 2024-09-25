@@ -3,7 +3,7 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- Horizon Dark scheme by Michaël Ball (http://github.com/michael-ball/)
+-- Horizon Terminal Dark scheme by Michaël Ball (http://github.com/michael-ball/)
 
 local gui00 = "#1C1E26"
 local gui01 = "#232530"

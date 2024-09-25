@@ -3,24 +3,24 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- Dracula scheme by Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+-- Dracula scheme by Jamy Golden (http://github.com/JamyGolden), based on Dracula Theme (http://github.com/dracula)
 
-local gui00 = "#282936"
-local gui01 = "#3a3c4e"
-local gui02 = "#4d4f68"
-local gui03 = "#626483"
-local gui04 = "#62d6e8"
-local gui05 = "#e9e9f4"
-local gui06 = "#f1f2f8"
-local gui07 = "#f7f7fb"
-local gui08 = "#ea51b2"
-local gui09 = "#b45bcf"
-local gui0A = "#00f769"
-local gui0B = "#ebff87"
-local gui0C = "#a1efe4"
-local gui0D = "#62d6e8"
-local gui0E = "#b45bcf"
-local gui0F = "#00f769"
+local gui00 = "#282a36"
+local gui01 = "#363447"
+local gui02 = "#44475a"
+local gui03 = "#6272a4"
+local gui04 = "#9ea8c7"
+local gui05 = "#f8f8f2"
+local gui06 = "#f0f1f4"
+local gui07 = "#ffffff"
+local gui08 = "#ff5555"
+local gui09 = "#ffb86c"
+local gui0A = "#f1fa8c"
+local gui0B = "#50fa7b"
+local gui0C = "#8be9fd"
+local gui0D = "#80bfff"
+local gui0E = "#ff79c6"
+local gui0F = "#bd93f9"
 
 local cterm00 = 0
 local cterm03 = 8

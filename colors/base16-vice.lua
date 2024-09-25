@@ -3,16 +3,16 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- Vice Dark scheme by Thomas Leon Highbaugh
+-- vice scheme by Thomas Leon Highbaugh thighbaugh@zoho.com
 
-local gui00 = "#181818"
-local gui01 = "#222222"
-local gui02 = "#323232"
-local gui03 = "#3f3f3f"
-local gui04 = "#666666"
-local gui05 = "#818181"
-local gui06 = "#c6c6c6"
-local gui07 = "#e9e9e9"
+local gui00 = "#17191E"
+local gui01 = "#22262d"
+local gui02 = "#3c3f4c"
+local gui03 = "#383a47"
+local gui04 = "#555e70"
+local gui05 = "#8b9cbe"
+local gui06 = "#B2BFD9"
+local gui07 = "#f4f4f7"
 local gui08 = "#ff29a8"
 local gui09 = "#85ffe0"
 local gui0A = "#f0ffaa"

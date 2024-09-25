@@ -7,8 +7,8 @@
 
 local gui00 = "#181818"
 local gui01 = "#453d41"
-local gui02 = "#665c7f"
-local gui03 = "#9dae93"
+local gui02 = "#484848"
+local gui03 = "#52494e"
 local gui04 = "#e4e4ef"
 local gui05 = "#f4f4ff"
 local gui06 = "#f5f5f5"
