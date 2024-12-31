@@ -3,24 +3,24 @@
 -- based on
 -- base16-vim (https://github.com/chriskempson/base16-vim)
 -- by Chris Kempson (https://github.com/chriskempson)
--- Deep Oceanic Next scheme by spearkkk (https://github.com/spearkkk/deep-oceanic-next)
+-- Deep Oceanic Next scheme by spearkkk (https://github.com/spearkkk)
 
-local gui00 = "#003b46"
-local gui01 = "#004f5e"
-local gui02 = "#006374"
-local gui03 = "#007a8a"
+local gui00 = "#001c1f"
+local gui01 = "#002931"
+local gui02 = "#003640"
+local gui03 = "#004852"
 local gui04 = "#0093a3"
-local gui05 = "#dce3e8"
-local gui06 = "#e6ebf0"
-local gui07 = "#f0f5f5"
-local gui08 = "#e6454b"
-local gui09 = "#ff6a4b"
-local gui0A = "#ffcc66"
-local gui0B = "#85b57a"
-local gui0C = "#4da6a6"
-local gui0D = "#3a82e6"
-local gui0E = "#8c4de6"
-local gui0F = "#e673a3"
+local gui05 = "#d4e1e8"
+local gui06 = "#e0e9ef"
+local gui07 = "#f2f7f9"
+local gui08 = "#d3464d"
+local gui09 = "#e37552"
+local gui0A = "#f3b863"
+local gui0B = "#63b784"
+local gui0C = "#4fb7ae"
+local gui0D = "#568ccf"
+local gui0E = "#8b66d6"
+local gui0F = "#d0658e"
 
 local cterm00 = 0
 local cterm03 = 8
