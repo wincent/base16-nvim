@@ -414,6 +414,58 @@ vim.api.nvim_set_hl(0, '@tag.attribute', { link = 'Special' })
 vim.api.nvim_set_hl(0, '@tag.delimiter', { link = 'Delimiter' })
 
 -- LSP
+vim.api.nvim_set_hl(0, '@lsp.type.class', { link = '@type' })
+vim.api.nvim_set_hl(0, '@lsp.type.comment', { link = '@comment' })
+vim.api.nvim_set_hl(0, '@lsp.type.decorator', { link = '@attribute' })
+vim.api.nvim_set_hl(0, '@lsp.type.enum', { link = '@type' })
+vim.api.nvim_set_hl(0, '@lsp.type.enumMember', { link = '@constant' })
+vim.api.nvim_set_hl(0, '@lsp.type.event', { link = '@type' })
+vim.api.nvim_set_hl(0, '@lsp.type.function', { link = '@function' })
+vim.api.nvim_set_hl(0, '@lsp.type.interface', { link = '@type' })
+vim.api.nvim_set_hl(0, '@lsp.type.keyword', { link = '@keyword' })
+vim.api.nvim_set_hl(0, '@lsp.type.macro', { link = '@function.macro' })
+vim.api.nvim_set_hl(0, '@lsp.type.method', { link = '@function.method' })
+vim.api.nvim_set_hl(0, '@lsp.type.modifier', { link = '@type.modifier' })
+vim.api.nvim_set_hl(0, '@lsp.type.namespace', { link = '@module' })
+vim.api.nvim_set_hl(0, '@lsp.type.number', { link = '@number' })
+vim.api.nvim_set_hl(0, '@lsp.type.operator', { link = '@operator' })
+vim.api.nvim_set_hl(0, '@lsp.type.parameter', { link = '@variable.parameter' })
+vim.api.nvim_set_hl(0, '@lsp.type.property', { link = '@property' })
+vim.api.nvim_set_hl(0, '@lsp.type.regexp', { link = '@string.regexp' })
+vim.api.nvim_set_hl(0, '@lsp.type.string', { link = '@string' })
+vim.api.nvim_set_hl(0, '@lsp.type.struct', { link = '@type' })
+vim.api.nvim_set_hl(0, '@lsp.type.type', { link = '@type' })
+vim.api.nvim_set_hl(0, '@lsp.type.typeParameter', { link = '@variable.parameter' })
+vim.api.nvim_set_hl(0, '@lsp.type.variable', { link = '@variable' })
 
+-- LSP: Rust
+vim.api.nvim_set_hl(0, '@lsp.type.builtinType.rust', { link = '@type.builtin' })
+vim.api.nvim_set_hl(0, '@lsp.type.escapeSequence.rust', { link = '@string.escape' })
+vim.api.nvim_set_hl(0, '@lsp.type.formatSpecifier.rust', { link = '@operator' })
+vim.api.nvim_set_hl(0, '@lsp.type.lifetime.rust', { link = '@attribute' })
+vim.api.nvim_set_hl(0, '@lsp.type.punctuation.rust', { link = '@punctuation.delimiter' })
+vim.api.nvim_set_hl(0, '@lsp.type.selfKeyword.rust', { link = '@variable.builtin' })
+vim.api.nvim_set_hl(0, '@lsp.type.selfTypeKeyword.rust', { link = '@type.builtin' })
+vim.api.nvim_set_hl(0, '@lsp.mod.attribute', { italic = true })
+vim.api.nvim_set_hl(0, '@lsp.mod.controlFlow', { link = '@keyword.repeat' })
+vim.api.nvim_set_hl(0, '@lsp.mod.intraDocLink.rust', { link = '@markup.link' })
+vim.api.nvim_set_hl(0, '@lsp.typemod.generic.injected.rust', { link = '@variable' })
+vim.api.nvim_set_hl(0, '@lsp.typemod.operator.controlFlow.rust', { link = '@operator' })
+vim.api.nvim_set_hl(0, '@lsp.typemod.function.associated.rust', { link = '@function.method' })
+
+-- LSP: Lua
+vim.api.nvim_set_hl(0, '@lsp.typemod.keyword.documentation.lua', { link = '@tag' })
+
+-- LSP: Markdown
+vim.api.nvim_set_hl(0, '@lsp.type.class.markdown', { link = '@lsp' })
+
+-- LSP (non-syntax)
+vim.api.nvim_set_hl(0, 'LspReferenceText', { link = 'Search' })
+vim.api.nvim_set_hl(0, 'LspReferenceRead', { fg = gui01, bg = gui14, ctermfg = cterm01, ctermbg = cterm14 })
+vim.api.nvim_set_hl(0, 'LspReferenceWrite', { fg = gui01, bg = gui12, ctermfg = cterm01, ctermbg = cterm12 })
+vim.api.nvim_set_hl(0, 'LspCodeLens', { link = 'NonText' })
+vim.api.nvim_set_hl(0, 'LspCodeLensSeparator', { link = 'LspCodeLens' })
+vim.api.nvim_set_hl(0, 'LspInlayHint', { link = 'NonText' })
+vim.api.nvim_set_hl(0, 'LspSignatureActiveParameter', { link = 'Visual' })
 
 -- vim: filetype=lua
