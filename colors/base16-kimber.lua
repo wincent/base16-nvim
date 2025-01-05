@@ -1,10 +1,18 @@
--- base16-nvim (https://github.com/wincent/base16-nvim)
--- by Greg Hurrell (https://github.com/wincent)
--- based on
--- base16-vim (https://github.com/chriskempson/base16-vim)
--- by Chris Kempson (https://github.com/chriskempson)
 -- Kimber scheme by Mishka Nguyen (https://github.com/akhsiM)
+--
+-- Generated from this template:
+--
+-- - base16-nvim (https://github.com/wincent/base16-nvim)
+--   by Greg Hurrell (https://github.com/wincent)
+--
+-- Template based on:
+--
+-- - base16-vim (https://github.com/chriskempson/base16-vim)
+--   by Chris Kempson (https://github.com/chriskempson); and its fork:
+-- - tinted-vim (https://github.com/tinted-theming/tinted-vim)
+--   by the Tinted Theming contributors.
 
+-- Base16 colors.
 local gui00 = "#222222"
 local gui01 = "#313131"
 local gui02 = "#555D55"
@@ -22,6 +30,17 @@ local gui0D = "#537C9C"
 local gui0E = "#86CACD"
 local gui0F = "#704F4F"
 
+-- Base24 colors (currently just falling back to Base16 colors).
+local gui10 = "#222222"
+local gui11 = "#222222"
+local gui12 = "#C88C8C"
+local gui13 = "#D8B56D"
+local gui14 = "#99C899"
+local gui15 = "#78B4B4"
+local gui16 = "#537C9C"
+local gui17 = "#86CACD"
+
+-- Base16 colors.
 local cterm00 = 0
 local cterm03 = 8
 local cterm05 = 7
@@ -39,13 +58,23 @@ local cterm06 = 13
 local cterm09 = 9
 local cterm0F = 14
 
+-- Base24 colors (currently just falling back to Base16 colors).
+local cterm10  = cterm00
+local cterm11  = cterm00
+local cterm12  = 1
+local cterm13  = 3
+local cterm14  = 2
+local cterm15  = 6
+local cterm16  = 4
+local cterm17  = 5
+
 vim.cmd [[
   highlight clear
   syntax reset
 ]]
 vim.g.colors_name = "base16-kimber"
 
--- Vim editor colors                    fg bg ctermfg ctermbg attr guisp
+-- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })
 vim.api.nvim_set_hl(0, 'Bold', { bold = true })
 vim.api.nvim_set_hl(0, 'Debug', { fg = gui08, ctermfg = cterm08 })
@@ -200,11 +229,30 @@ vim.api.nvim_set_hl(0, 'jsGlobalNodeObjects', { fg = gui0A, ctermfg = cterm0A })
 vim.api.nvim_set_hl(0, 'jsExceptions', { fg = gui0A, ctermfg = cterm0A })
 vim.api.nvim_set_hl(0, 'jsBuiltins', { fg = gui0A, ctermfg = cterm0A })
 
--- LSP highlighting
+-- Diagnostics (legacy).
 vim.api.nvim_set_hl(0, 'LspDiagnosticsDefaultError', { fg = gui08, ctermfg = cterm08 })
 vim.api.nvim_set_hl(0, 'LspDiagnosticsDefaultWarning', { fg = gui09, ctermfg = cterm09 })
-vim.api.nvim_set_hl(0, 'LspDiagnosticsDefaultHnformation', { fg = gui05, ctermfg = cterm05 })
-vim.api.nvim_set_hl(0, 'LspDiagnosticsDefaultHint', { fg = gui03, ctermfg = cterm03 })
+vim.api.nvim_set_hl(0, 'LspDiagnosticsDefaultInformation', { fg = gui0C, ctermfg = cterm0C })
+vim.api.nvim_set_hl(0, 'LspDiagnosticsDefaultHint', { fg = gui0D, ctermfg = cterm0D })
+
+-- Diagnostics (modern).
+vim.api.nvim_set_hl(0, 'DiagnosticError', { fg = gui08, ctermfg = cterm08 })
+vim.api.nvim_set_hl(0, 'DiagnosticWarn', { fg = gui09, ctermfg = cterm09 })
+vim.api.nvim_set_hl(0, 'DiagnosticInfo', { fg = gui0C, ctermfg = cterm0C })
+vim.api.nvim_set_hl(0, 'DiagnosticHint', { fg = gui0D, ctermfg = cterm0D })
+vim.api.nvim_set_hl(0, 'DiagnosticOk', { fg = gui0B, ctermfg = cterm0B })
+vim.api.nvim_set_hl(0, 'DiagnosticUnderlineError', { ctermfg = cterm00, ctermbg = cterm08, underline = true, sp = gui08 })
+vim.api.nvim_set_hl(0, 'DiagnosticUnderlineWarn', { ctermfg = cterm00, ctermbg = cterm09, underline = true, sp = gui09 })
+vim.api.nvim_set_hl(0, 'DiagnosticUnderlineInfo', { ctermfg = cterm00, ctermbg = cterm0C, underline = true, sp = gui0C })
+vim.api.nvim_set_hl(0, 'DiagnosticUnderlineHint', { ctermfg = cterm00, ctermbg = cterm0D, underline = true, sp = gui0D })
+vim.api.nvim_set_hl(0, 'DiagnosticUnderlineOk', { ctermfg = cterm00, ctermbg = cterm0B, underline = true, sp = gui0B })
+vim.api.nvim_set_hl(0, 'DiagnosticFloatingError', { fg = gui08, bg = gui01, ctermfg = cterm08, ctermbg = cterm01 })
+vim.api.nvim_set_hl(0, 'DiagnosticFloatingWarn', { fg = gui09, bg = gui01, ctermfg = cterm09, ctermbg = cterm01 })
+vim.api.nvim_set_hl(0, 'DiagnosticFloatingInfo', { fg = gui0C, bg = gui01, ctermfg = cterm0C, ctermbg = cterm01 })
+vim.api.nvim_set_hl(0, 'DiagnosticFloatingHint', { fg = gui0D, bg = gui01, ctermfg = cterm0D, ctermbg = cterm01 })
+vim.api.nvim_set_hl(0, 'DiagnosticFloatingOk', { fg = gui0B, bg = gui01, ctermfg = cterm0B, ctermbg = cterm01 })
+vim.api.nvim_set_hl(0, 'DiagnosticDeprecated', { ctermfg = cterm0F, ctermbg = cterm0F, strikethrough = true })
+vim.api.nvim_set_hl(0, 'DiagnosticUnnecessary', { link = 'Comment' })
 
 -- Mail highlighting
 vim.api.nvim_set_hl(0, 'mailQuoted1', { fg = gui0A, ctermfg = cterm0A })
@@ -278,5 +326,94 @@ vim.api.nvim_set_hl(0, 'StartifySpecial', { fg = gui03, ctermfg = cterm03 })
 
 -- Java highlighting
 vim.api.nvim_set_hl(0, 'javaOperator', { fg = gui0D, ctermfg = cterm0D })
+
+-- Treesitter
+vim.api.nvim_set_hl(0, '@variable', { link = 'Identifier' })
+vim.api.nvim_set_hl(0, '@variable.builtin', { fg = gui05, ctermfg = cterm05, italic = true })
+vim.api.nvim_set_hl(0, '@variable.parameter', { link = 'Identifier' })
+vim.api.nvim_set_hl(0, '@variable.parameter.builtin', { link = '@variable.builtin' })
+vim.api.nvim_set_hl(0, '@variable.member', { fg = gui04, ctermfg = cterm04 })
+vim.api.nvim_set_hl(0, '@constant', { link = 'Constant' })
+vim.api.nvim_set_hl(0, '@constant.builtin', { fg = gui09, ctermfg = cterm09, italic = true })
+vim.api.nvim_set_hl(0, '@constant.macro', { link = 'Constant' })
+vim.api.nvim_set_hl(0, '@module', { link = 'Identifier' })
+vim.api.nvim_set_hl(0, '@module.builtin', { fg = gui05, ctermfg = cterm05, italic = true })
+vim.api.nvim_set_hl(0, '@label', { link = 'Tag' })
+vim.api.nvim_set_hl(0, '@string', { link = 'String' })
+vim.api.nvim_set_hl(0, '@string.documentation', { link = 'String' })
+vim.api.nvim_set_hl(0, '@string.regexp', { link = 'SpecialComment' })
+vim.api.nvim_set_hl(0, '@string.escape', { link = 'SpecialComment' })
+vim.api.nvim_set_hl(0, '@string.special', { link = 'SpecialComment' })
+vim.api.nvim_set_hl(0, '@string.special.symbol', { link = 'SpecialComment' })
+vim.api.nvim_set_hl(0, '@string.special.path', { fg = gui0D, ctermfg = cterm0D, italic = true })
+vim.api.nvim_set_hl(0, '@string.special.url', { fg = gui08, ctermfg = cterm08, italic = true })
+vim.api.nvim_set_hl(0, '@character', { link = 'Character' })
+vim.api.nvim_set_hl(0, '@character.special', { link = 'SpecialChar' })
+vim.api.nvim_set_hl(0, '@boolean', { link = 'Boolean' })
+vim.api.nvim_set_hl(0, '@number', { link = 'Number' })
+vim.api.nvim_set_hl(0, '@number.float', { link = 'Float' })
+vim.api.nvim_set_hl(0, '@type', { link = 'Type' })
+vim.api.nvim_set_hl(0, '@type.builtin', { fg = gui0A, ctermfg = cterm0A, italic = true })
+vim.api.nvim_set_hl(0, '@type.definition', { link = 'Typedef' })
+vim.api.nvim_set_hl(0, '@attribute', { link = 'Special' })
+vim.api.nvim_set_hl(0, '@attribute.builtin', { fg = gui0C, ctermfg = cterm0C, italic = true })
+vim.api.nvim_set_hl(0, '@property', { link = '@variable.member' })
+vim.api.nvim_set_hl(0, '@function', { fg = gui16, ctermfg = cterm16 })
+vim.api.nvim_set_hl(0, '@function.builtin', { fg = gui16, ctermfg = cterm16, italic = true })
+vim.api.nvim_set_hl(0, '@function.call', { link = '@function' })
+vim.api.nvim_set_hl(0, '@function.macro', { link = 'Macro' })
+vim.api.nvim_set_hl(0, '@function.method', { link = 'Function' })
+vim.api.nvim_set_hl(0, '@function.method.call', { link = '@function.method' })
+vim.api.nvim_set_hl(0, '@constructor', { fg = gui0D, ctermfg = cterm0D, bold = true })
+vim.api.nvim_set_hl(0, '@operator', { link = 'Operator' })
+vim.api.nvim_set_hl(0, '@keyword', { link = 'Keyword' })
+vim.api.nvim_set_hl(0, '@keyword.coroutine', { link = 'Repeat' })
+vim.api.nvim_set_hl(0, '@keyword.function', { link = 'Keyword' })
+vim.api.nvim_set_hl(0, '@keyword.operator', { link = 'Operator' })
+vim.api.nvim_set_hl(0, '@keyword.import', { fg = gui0E, ctermfg = cterm0E, italic = true })
+vim.api.nvim_set_hl(0, '@keyword.type', { link = 'Keyword' })
+vim.api.nvim_set_hl(0, '@keyword.modifier', { link = 'Repeat' })
+vim.api.nvim_set_hl(0, '@keyword.repeat', { link = 'Repeat' })
+vim.api.nvim_set_hl(0, '@keyword.return', { link = 'Keyword' })
+vim.api.nvim_set_hl(0, '@keyword.debug', { link = 'Debug' })
+vim.api.nvim_set_hl(0, '@keyword.exception', { link = 'Exception' })
+vim.api.nvim_set_hl(0, '@keyword.conditional', { link = 'Conditional' })
+vim.api.nvim_set_hl(0, '@keyword.ternary', { link = 'Conditional' })
+vim.api.nvim_set_hl(0, '@keyword.directive', { link = 'PreProc' })
+vim.api.nvim_set_hl(0, '@keyword.directive.define', { link = 'Define' })
+vim.api.nvim_set_hl(0, '@punctuation.delimiter', { link = 'Delimiter' })
+vim.api.nvim_set_hl(0, '@punctuation.bracket', { link = 'Delimiter' })
+vim.api.nvim_set_hl(0, '@punctuation.special', { link = 'Special' })
+vim.api.nvim_set_hl(0, '@comment', { link = 'Comment' })
+vim.api.nvim_set_hl(0, '@comment.documentation', { link = 'Comment' })
+vim.api.nvim_set_hl(0, '@comment.error', { fg = gui08, ctermfg = cterm08, italic = true })
+vim.api.nvim_set_hl(0, '@comment.warning', { fg = gui09, ctermfg = cterm09, italic = true })
+vim.api.nvim_set_hl(0, '@comment.note', { fg = gui0D, ctermfg = cterm0D, italic = true })
+vim.api.nvim_set_hl(0, '@comment.todo', { fg = gui0C, ctermfg = cterm0C, italic = true })
+vim.api.nvim_set_hl(0, '@markup.strong', { bold = true })
+vim.api.nvim_set_hl(0, '@markup.italic', { italic = true })
+vim.api.nvim_set_hl(0, '@markup.strikethrough', { strikethrough = true })
+vim.api.nvim_set_hl(0, '@markup.underline', { underline = true })
+vim.api.nvim_set_hl(0, '@markup.heading', { link = 'Title' })
+vim.api.nvim_set_hl(0, '@markup.quote', { link = 'String' })
+vim.api.nvim_set_hl(0, '@markup.math', { link = 'Special' })
+vim.api.nvim_set_hl(0, '@markup.link', { fg = gui08, ctermfg = cterm08 })
+vim.api.nvim_set_hl(0, '@markup.link.label', { link = '@markup.link' })
+vim.api.nvim_set_hl(0, '@markup.link.url', { link = 'Identifier' })
+vim.api.nvim_set_hl(0, '@markup.raw', { fg = gui04, ctermfg = cterm04 })
+vim.api.nvim_set_hl(0, '@markup.raw.block', { link = 'Identifier' })
+vim.api.nvim_set_hl(0, '@markup.list', { link = 'SpecialChar' })
+vim.api.nvim_set_hl(0, '@markup.list.checked', { link = 'DiagnosticOk' })
+vim.api.nvim_set_hl(0, '@markup.list.unchecked', { link = 'DiagnosticError' })
+vim.api.nvim_set_hl(0, '@diff.plus', { link = 'Added' })
+vim.api.nvim_set_hl(0, '@diff.minus', { link = 'Removed' })
+vim.api.nvim_set_hl(0, '@diff.delta', { link = 'Changed' })
+vim.api.nvim_set_hl(0, '@tag', { link = 'Tag' })
+vim.api.nvim_set_hl(0, '@tag.builtin', { fg = gui09, ctermfg = cterm09, italic = true })
+vim.api.nvim_set_hl(0, '@tag.attribute', { link = 'Special' })
+vim.api.nvim_set_hl(0, '@tag.delimiter', { link = 'Delimiter' })
+
+-- LSP
+
 
 -- vim: filetype=lua
