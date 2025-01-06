@@ -1,4 +1,4 @@
--- caroline scheme by ed (https://codeberg.org/ed)
+-- One Black scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#1c1213"
-local gui01 = "#3a2425"
-local gui02 = "#563837"
-local gui03 = "#6d4745"
-local gui04 = "#8b5d57"
-local gui05 = "#a87569"
-local gui06 = "#c58d7b"
-local gui07 = "#e3a68c"
-local gui08 = "#c24f57"
-local gui09 = "#a63650"
-local gui0A = "#f28171"
-local gui0B = "#806c61"
-local gui0C = "#6b6566"
-local gui0D = "#684c59"
-local gui0E = "#a63650"
-local gui0F = "#893f45"
+local gui00 = "#000000"
+local gui01 = "#000000"
+local gui02 = "#4f5666"
+local gui03 = "#545862"
+local gui04 = "#9196a1"
+local gui05 = "#abb2bf"
+local gui06 = "#e6e6e6"
+local gui07 = "#ffffff"
+local gui08 = "#e05561"
+local gui09 = "#d18f52"
+local gui0A = "#e6b965"
+local gui0B = "#8cc265"
+local gui0C = "#42b3c2"
+local gui0D = "#4aa5f0"
+local gui0E = "#c162de"
+local gui0F = "#bf4034"
 
 -- Base24 colors.
-local gui10 = "#1c1213"
-local gui11 = "#1c1213"
-local gui12 = "#c24f57"
-local gui13 = "#f28171"
-local gui14 = "#806c61"
-local gui15 = "#6b6566"
-local gui16 = "#684c59"
-local gui17 = "#a63650"
+local gui10 = "#000000"
+local gui11 = "#000000"
+local gui12 = "#ff616e"
+local gui13 = "#f0a45d"
+local gui14 = "#a5e075"
+local gui15 = "#4cd1e0"
+local gui16 = "#4dc4ff"
+local gui17 = "#de73ff"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "base16-caroline"
+vim.g.colors_name = "base16-one-black"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

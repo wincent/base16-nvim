@@ -1,4 +1,4 @@
--- Brogrammer scheme by Vik Ramanujam (http://github.com/piggyslasher)
+-- Brogrammer scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#1f1f1f"
-local gui01 = "#f81118"
-local gui02 = "#2dc55e"
-local gui03 = "#ecba0f"
-local gui04 = "#2a84d2"
-local gui05 = "#4e5ab7"
-local gui06 = "#1081d6"
-local gui07 = "#d6dbe5"
-local gui08 = "#d6dbe5"
-local gui09 = "#de352e"
-local gui0A = "#1dd361"
-local gui0B = "#f3bd09"
-local gui0C = "#1081d6"
-local gui0D = "#5350b9"
-local gui0E = "#0f7ddb"
-local gui0F = "#ffffff"
+local gui00 = "#131313"
+local gui01 = "#1f1f1f"
+local gui02 = "#2a3141"
+local gui03 = "#343d50"
+local gui04 = "#d6dae4"
+local gui05 = "#c1c8d7"
+local gui06 = "#e3e6ed"
+local gui07 = "#ffffff"
+local gui08 = "#f71118"
+local gui09 = "#ecb90f"
+local gui0A = "#0f80d5"
+local gui0B = "#2cc55d"
+local gui0C = "#0f80d5"
+local gui0D = "#2a84d2"
+local gui0E = "#4e59b7"
+local gui0F = "#7b080c"
 
--- Base24 colors (currently just falling back to Base16 colors).
-local gui10 = "#1f1f1f"
-local gui11 = "#1f1f1f"
-local gui12 = "#d6dbe5"
-local gui13 = "#1dd361"
-local gui14 = "#f3bd09"
-local gui15 = "#1081d6"
-local gui16 = "#5350b9"
-local gui17 = "#0f7ddb"
+-- Base24 colors.
+local gui10 = "#0a0a0a"
+local gui11 = "#020202"
+local gui12 = "#de342e"
+local gui13 = "#f2bd09"
+local gui14 = "#1dd260"
+local gui15 = "#289af0"
+local gui16 = "#509bdc"
+local gui17 = "#524fb9"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -58,15 +58,15 @@ local cterm06 = 13
 local cterm09 = 9
 local cterm0F = 14
 
--- Base24 colors (currently just falling back to Base16 colors).
+-- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 1
-local cterm13  = 3
-local cterm14  = 2
-local cterm15  = 6
-local cterm16  = 4
-local cterm17  = 5
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear

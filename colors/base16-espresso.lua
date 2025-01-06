@@ -1,4 +1,4 @@
--- Espresso scheme by Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
+-- Espresso scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#2d2d2d"
-local gui01 = "#393939"
-local gui02 = "#515151"
-local gui03 = "#777777"
-local gui04 = "#b4b7b4"
-local gui05 = "#cccccc"
-local gui06 = "#e0e0e0"
+local gui00 = "#262626"
+local gui01 = "#343434"
+local gui02 = "#535353"
+local gui03 = "#797979"
+local gui04 = "#a0a09f"
+local gui05 = "#c7c7c5"
+local gui06 = "#eeeeec"
 local gui07 = "#ffffff"
-local gui08 = "#d25252"
-local gui09 = "#f9a959"
-local gui0A = "#ffc66d"
+local gui08 = "#d25151"
+local gui09 = "#ffc66d"
+local gui0A = "#8ab7d9"
 local gui0B = "#a5c261"
 local gui0C = "#bed6ff"
 local gui0D = "#6c99bb"
 local gui0E = "#d197d9"
-local gui0F = "#f97394"
+local gui0F = "#692828"
 
--- Base24 colors (currently just falling back to Base16 colors).
-local gui10 = "#2d2d2d"
-local gui11 = "#2d2d2d"
-local gui12 = "#d25252"
-local gui13 = "#ffc66d"
-local gui14 = "#a5c261"
-local gui15 = "#bed6ff"
-local gui16 = "#6c99bb"
-local gui17 = "#d197d9"
+-- Base24 colors.
+local gui10 = "#373737"
+local gui11 = "#1b1b1b"
+local gui12 = "#f00c0c"
+local gui13 = "#e1e38b"
+local gui14 = "#c2e075"
+local gui15 = "#dcf3ff"
+local gui16 = "#8ab7d9"
+local gui17 = "#efb5f7"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -58,15 +58,15 @@ local cterm06 = 13
 local cterm09 = 9
 local cterm0F = 14
 
--- Base24 colors (currently just falling back to Base16 colors).
+-- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 1
-local cterm13  = 3
-local cterm14  = 2
-local cterm15  = 6
-local cterm16  = 4
-local cterm17  = 5
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear

@@ -1,4 +1,4 @@
--- One Light scheme by Daniel Pfeifer (http://github.com/purpleKarrot)
+-- One Light scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#fafafa"
-local gui01 = "#f0f0f1"
-local gui02 = "#e5e5e6"
+local gui00 = "#e7e7e9"
+local gui01 = "#dfdfe1"
+local gui02 = "#cacace"
 local gui03 = "#a0a1a7"
 local gui04 = "#696c77"
 local gui05 = "#383a42"
 local gui06 = "#202227"
 local gui07 = "#090a0b"
 local gui08 = "#ca1243"
-local gui09 = "#d75f00"
-local gui0A = "#c18401"
+local gui09 = "#c18401"
+local gui0A = "#febb2a"
 local gui0B = "#50a14f"
 local gui0C = "#0184bc"
 local gui0D = "#4078f2"
 local gui0E = "#a626a4"
 local gui0F = "#986801"
 
--- Base24 colors (currently just falling back to Base16 colors).
-local gui10 = "#fafafa"
+-- Base24 colors.
+local gui10 = "#f0f0f1"
 local gui11 = "#fafafa"
-local gui12 = "#ca1243"
-local gui13 = "#c18401"
-local gui14 = "#50a14f"
-local gui15 = "#0184bc"
-local gui16 = "#4078f2"
-local gui17 = "#a626a4"
+local gui12 = "#ec2258"
+local gui13 = "#f4a701"
+local gui14 = "#6db76c"
+local gui15 = "#01a7ef"
+local gui16 = "#709af5"
+local gui17 = "#d02fcd"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -58,15 +58,15 @@ local cterm06 = 13
 local cterm09 = 9
 local cterm0F = 14
 
--- Base24 colors (currently just falling back to Base16 colors).
+-- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 1
-local cterm13  = 3
-local cterm14  = 2
-local cterm15  = 6
-local cterm16  = 4
-local cterm17  = 5
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear

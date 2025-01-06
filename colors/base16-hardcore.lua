@@ -1,4 +1,4 @@
--- Hardcore scheme by Chris Caller
+-- Hardcore scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#212121"
-local gui01 = "#303030"
-local gui02 = "#353535"
-local gui03 = "#4A4A4A"
-local gui04 = "#707070"
-local gui05 = "#cdcdcd"
-local gui06 = "#e5e5e5"
+local gui00 = "#111111"
+local gui01 = "#141414"
+local gui02 = "#414141"
+local gui03 = "#636363"
+local gui04 = "#868686"
+local gui05 = "#a9a9a9"
+local gui06 = "#cccccc"
 local gui07 = "#ffffff"
-local gui08 = "#f92672"
-local gui09 = "#fd971f"
-local gui0A = "#e6db74"
-local gui0B = "#a6e22e"
-local gui0C = "#708387"
-local gui0D = "#66d9ef"
-local gui0E = "#9e6ffe"
-local gui0F = "#e8b882"
+local gui08 = "#ff5555"
+local gui09 = "#ffcc33"
+local gui0A = "#33bbff"
+local gui0B = "#98ec65"
+local gui0C = "#88ddff"
+local gui0D = "#00aaff"
+local gui0E = "#aa88ff"
+local gui0F = "#7f2a2a"
 
--- Base24 colors (currently just falling back to Base16 colors).
-local gui10 = "#212121"
-local gui11 = "#212121"
-local gui12 = "#f92672"
-local gui13 = "#e6db74"
-local gui14 = "#a6e22e"
-local gui15 = "#708387"
-local gui16 = "#66d9ef"
-local gui17 = "#9e6ffe"
+-- Base24 colors.
+local gui10 = "#0a0a0a"
+local gui11 = "#060606"
+local gui12 = "#ff8888"
+local gui13 = "#ffd966"
+local gui14 = "#b6f292"
+local gui15 = "#bbecff"
+local gui16 = "#33bbff"
+local gui17 = "#cebbff"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -58,15 +58,15 @@ local cterm06 = 13
 local cterm09 = 9
 local cterm0F = 14
 
--- Base24 colors (currently just falling back to Base16 colors).
+-- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 1
-local cterm13  = 3
-local cterm14  = 2
-local cterm15  = 6
-local cterm16  = 4
-local cterm17  = 5
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear

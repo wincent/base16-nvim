@@ -1,4 +1,4 @@
--- Chalk scheme by Chris Kempson (https://github.com/chriskempson)
+-- Chalk scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -21,20 +21,20 @@ local gui04 = "#b0b0b0"
 local gui05 = "#d0d0d0"
 local gui06 = "#e0e0e0"
 local gui07 = "#f5f5f5"
-local gui08 = "#fb9fb1"
-local gui09 = "#eda987"
+local gui08 = "#fa859c"
+local gui09 = "#ea9971"
 local gui0A = "#ddb26f"
-local gui0B = "#acc267"
-local gui0C = "#12cfc0"
-local gui0D = "#6fc2ef"
-local gui0E = "#e1a3ee"
+local gui0B = "#a1bb54"
+local gui0C = "#10bcad"
+local gui0D = "#5ab9ed"
+local gui0E = "#db8fea"
 local gui0F = "#deaf8f"
 
--- Base24 colors (currently just falling back to Base16 colors).
-local gui10 = "#151515"
-local gui11 = "#151515"
+-- Base24 colors.
+local gui10 = "#0b0b0b"
+local gui11 = "#060606"
 local gui12 = "#fb9fb1"
-local gui13 = "#ddb26f"
+local gui13 = "#eda987"
 local gui14 = "#acc267"
 local gui15 = "#12cfc0"
 local gui16 = "#6fc2ef"
@@ -58,15 +58,15 @@ local cterm06 = 13
 local cterm09 = 9
 local cterm0F = 14
 
--- Base24 colors (currently just falling back to Base16 colors).
+-- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 1
-local cterm13  = 3
-local cterm14  = 2
-local cterm15  = 6
-local cterm16  = 4
-local cterm17  = 5
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear

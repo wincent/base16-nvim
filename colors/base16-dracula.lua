@@ -1,4 +1,4 @@
--- Dracula scheme by Jamy Golden (http://github.com/JamyGolden), based on Dracula Theme (http://github.com/dracula)
+-- Dracula scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -30,15 +30,15 @@ local gui0D = "#80bfff"
 local gui0E = "#ff79c6"
 local gui0F = "#bd93f9"
 
--- Base24 colors (currently just falling back to Base16 colors).
-local gui10 = "#282a36"
-local gui11 = "#282a36"
-local gui12 = "#ff5555"
-local gui13 = "#f1fa8c"
-local gui14 = "#50fa7b"
-local gui15 = "#8be9fd"
-local gui16 = "#80bfff"
-local gui17 = "#ff79c6"
+-- Base24 colors.
+local gui10 = "#1e2029"
+local gui11 = "#16171d"
+local gui12 = "#f28c8c"
+local gui13 = "#eef5a3"
+local gui14 = "#a3f5b8"
+local gui15 = "#baedf7"
+local gui16 = "#a3ccf5"
+local gui17 = "#f5a3d2"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -58,15 +58,15 @@ local cterm06 = 13
 local cterm09 = 9
 local cterm0F = 14
 
--- Base24 colors (currently just falling back to Base16 colors).
+-- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 1
-local cterm13  = 3
-local cterm14  = 2
-local cterm15  = 6
-local cterm16  = 4
-local cterm17  = 5
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear

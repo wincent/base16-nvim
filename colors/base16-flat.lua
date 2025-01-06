@@ -1,4 +1,4 @@
--- Flat scheme by Chris Kempson (https://github.com/chriskempson)
+-- Flat scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#2C3E50"
-local gui01 = "#34495E"
-local gui02 = "#7F8C8D"
-local gui03 = "#95A5A6"
-local gui04 = "#BDC3C7"
-local gui05 = "#e0e0e0"
-local gui06 = "#f5f5f5"
-local gui07 = "#ECF0F1"
-local gui08 = "#E74C3C"
-local gui09 = "#E67E22"
-local gui0A = "#F1C40F"
-local gui0B = "#2ECC71"
-local gui0C = "#1ABC9C"
-local gui0D = "#3498DB"
-local gui0E = "#9B59B6"
-local gui0F = "#be643c"
+local gui00 = "#082845"
+local gui01 = "#1d2845"
+local gui02 = "#2e2e45"
+local gui03 = "#444e5b"
+local gui04 = "#68717b"
+local gui05 = "#8c939a"
+local gui06 = "#b0b6ba"
+local gui07 = "#e7eced"
+local gui08 = "#a82320"
+local gui09 = "#e58d11"
+local gui0A = "#3c7dd2"
+local gui0B = "#2d9440"
+local gui0C = "#2c9370"
+local gui0D = "#3167ac"
+local gui0E = "#781aa0"
+local gui0F = "#541110"
 
--- Base24 colors (currently just falling back to Base16 colors).
-local gui10 = "#2C3E50"
-local gui11 = "#2C3E50"
-local gui12 = "#E74C3C"
-local gui13 = "#F1C40F"
-local gui14 = "#2ECC71"
-local gui15 = "#1ABC9C"
-local gui16 = "#3498DB"
-local gui17 = "#9B59B6"
+-- Base24 colors.
+local gui10 = "#002240"
+local gui11 = "#001629"
+local gui12 = "#d4312e"
+local gui13 = "#e5be0c"
+local gui14 = "#32a548"
+local gui15 = "#35b387"
+local gui16 = "#3c7dd2"
+local gui17 = "#8230a7"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -58,15 +58,15 @@ local cterm06 = 13
 local cterm09 = 9
 local cterm0F = 14
 
--- Base24 colors (currently just falling back to Base16 colors).
+-- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = 1
-local cterm13  = 3
-local cterm14  = 2
-local cterm15  = 6
-local cterm16  = 4
-local cterm17  = 5
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear
