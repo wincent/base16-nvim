@@ -1,4 +1,4 @@
--- {{scheme-name}} scheme by {{scheme-author}}
+-- Bespin scheme by Jan T. Sott
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#{{base00-hex}}"
-local gui01 = "#{{base01-hex}}"
-local gui02 = "#{{base02-hex}}"
-local gui03 = "#{{base03-hex}}"
-local gui04 = "#{{base04-hex}}"
-local gui05 = "#{{base05-hex}}"
-local gui06 = "#{{base06-hex}}"
-local gui07 = "#{{base07-hex}}"
-local gui08 = "#{{base08-hex}}"
-local gui09 = "#{{base09-hex}}"
-local gui0A = "#{{base0A-hex}}"
-local gui0B = "#{{base0B-hex}}"
-local gui0C = "#{{base0C-hex}}"
-local gui0D = "#{{base0D-hex}}"
-local gui0E = "#{{base0E-hex}}"
-local gui0F = "#{{base0F-hex}}"
+local gui00 = "#28211c"
+local gui01 = "#36312e"
+local gui02 = "#5e5d5c"
+local gui03 = "#666666"
+local gui04 = "#797977"
+local gui05 = "#8a8986"
+local gui06 = "#9d9b97"
+local gui07 = "#baae9e"
+local gui08 = "#cf6a4c"
+local gui09 = "#cf7d34"
+local gui0A = "#f9ee98"
+local gui0B = "#54be0d"
+local gui0C = "#afc4db"
+local gui0D = "#5ea6ea"
+local gui0E = "#9b859d"
+local gui0F = "#937121"
 
 -- Base24 colors.
-local gui10 = "#{{base10-hex}}{{^base10-hex}}{{base00-hex}}{{/base10-hex}}"
-local gui11 = "#{{base11-hex}}{{^base11-hex}}{{base00-hex}}{{/base11-hex}}"
-local gui12 = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}"
-local gui13 = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}"
-local gui14 = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}"
-local gui15 = "#{{base15-hex}}{{^base15-hex}}{{base0C-hex}}{{/base15-hex}}"
-local gui16 = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}"
-local gui17 = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}"
+local gui10 = "#28211c"
+local gui11 = "#28211c"
+local gui12 = "#cf6a4c"
+local gui13 = "#f9ee98"
+local gui14 = "#54be0d"
+local gui15 = "#afc4db"
+local gui16 = "#5ea6ea"
+local gui17 = "#9b859d"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -61,18 +61,18 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = {{#base12-hex}}9{{/base12-hex}}{{^base12-hex}}1{{/base12-hex}}
-local cterm13  = {{#base13-hex}}11{{/base13-hex}}{{^base13-hex}}3{{/base13-hex}}
-local cterm14  = {{#base14-hex}}10{{/base14-hex}}{{^base14-hex}}2{{/base14-hex}}
-local cterm15  = {{#base15-hex}}14{{/base15-hex}}{{^base15-hex}}6{{/base15-hex}}
-local cterm16  = {{#base16-hex}}12{{/base16-hex}}{{^base16-hex}}4{{/base16-hex}}
-local cterm17  = {{#base17-hex}}13{{/base17-hex}}{{^base17-hex}}5{{/base17-hex}}
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "{{scheme-slug}}"
+vim.g.colors_name = "bespin"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

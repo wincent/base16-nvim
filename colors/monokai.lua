@@ -1,4 +1,4 @@
--- {{scheme-name}} scheme by {{scheme-author}}
+-- Monokai scheme by Wimer Hazenberg (http://www.monokai.nl)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#{{base00-hex}}"
-local gui01 = "#{{base01-hex}}"
-local gui02 = "#{{base02-hex}}"
-local gui03 = "#{{base03-hex}}"
-local gui04 = "#{{base04-hex}}"
-local gui05 = "#{{base05-hex}}"
-local gui06 = "#{{base06-hex}}"
-local gui07 = "#{{base07-hex}}"
-local gui08 = "#{{base08-hex}}"
-local gui09 = "#{{base09-hex}}"
-local gui0A = "#{{base0A-hex}}"
-local gui0B = "#{{base0B-hex}}"
-local gui0C = "#{{base0C-hex}}"
-local gui0D = "#{{base0D-hex}}"
-local gui0E = "#{{base0E-hex}}"
-local gui0F = "#{{base0F-hex}}"
+local gui00 = "#272822"
+local gui01 = "#383830"
+local gui02 = "#49483e"
+local gui03 = "#75715e"
+local gui04 = "#a59f85"
+local gui05 = "#f8f8f2"
+local gui06 = "#f5f4f1"
+local gui07 = "#f9f8f5"
+local gui08 = "#f92672"
+local gui09 = "#fd971f"
+local gui0A = "#f4bf75"
+local gui0B = "#a6e22e"
+local gui0C = "#a1efe4"
+local gui0D = "#66d9ef"
+local gui0E = "#ae81ff"
+local gui0F = "#cc6633"
 
 -- Base24 colors.
-local gui10 = "#{{base10-hex}}{{^base10-hex}}{{base00-hex}}{{/base10-hex}}"
-local gui11 = "#{{base11-hex}}{{^base11-hex}}{{base00-hex}}{{/base11-hex}}"
-local gui12 = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}"
-local gui13 = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}"
-local gui14 = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}"
-local gui15 = "#{{base15-hex}}{{^base15-hex}}{{base0C-hex}}{{/base15-hex}}"
-local gui16 = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}"
-local gui17 = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}"
+local gui10 = "#272822"
+local gui11 = "#272822"
+local gui12 = "#f92672"
+local gui13 = "#f4bf75"
+local gui14 = "#a6e22e"
+local gui15 = "#a1efe4"
+local gui16 = "#66d9ef"
+local gui17 = "#ae81ff"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -61,18 +61,18 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = {{#base12-hex}}9{{/base12-hex}}{{^base12-hex}}1{{/base12-hex}}
-local cterm13  = {{#base13-hex}}11{{/base13-hex}}{{^base13-hex}}3{{/base13-hex}}
-local cterm14  = {{#base14-hex}}10{{/base14-hex}}{{^base14-hex}}2{{/base14-hex}}
-local cterm15  = {{#base15-hex}}14{{/base15-hex}}{{^base15-hex}}6{{/base15-hex}}
-local cterm16  = {{#base16-hex}}12{{/base16-hex}}{{^base16-hex}}4{{/base16-hex}}
-local cterm17  = {{#base17-hex}}13{{/base17-hex}}{{^base17-hex}}5{{/base17-hex}}
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "{{scheme-slug}}"
+vim.g.colors_name = "monokai"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

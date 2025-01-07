@@ -1,4 +1,4 @@
--- {{scheme-name}} scheme by {{scheme-author}}
+-- Heetch Light scheme by Geoffrey Teale (tealeg@gmail.com)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#{{base00-hex}}"
-local gui01 = "#{{base01-hex}}"
-local gui02 = "#{{base02-hex}}"
-local gui03 = "#{{base03-hex}}"
-local gui04 = "#{{base04-hex}}"
-local gui05 = "#{{base05-hex}}"
-local gui06 = "#{{base06-hex}}"
-local gui07 = "#{{base07-hex}}"
-local gui08 = "#{{base08-hex}}"
-local gui09 = "#{{base09-hex}}"
-local gui0A = "#{{base0A-hex}}"
-local gui0B = "#{{base0B-hex}}"
-local gui0C = "#{{base0C-hex}}"
-local gui0D = "#{{base0D-hex}}"
-local gui0E = "#{{base0E-hex}}"
-local gui0F = "#{{base0F-hex}}"
+local gui00 = "#feffff"
+local gui01 = "#392551"
+local gui02 = "#7b6d8b"
+local gui03 = "#9c92a8"
+local gui04 = "#ddd6e5"
+local gui05 = "#5a496e"
+local gui06 = "#470546"
+local gui07 = "#190134"
+local gui08 = "#27d9d5"
+local gui09 = "#bdb6c5"
+local gui0A = "#5ba2b6"
+local gui0B = "#f80059"
+local gui0C = "#c33678"
+local gui0D = "#47f9f5"
+local gui0E = "#bd0152"
+local gui0F = "#dedae2"
 
 -- Base24 colors.
-local gui10 = "#{{base10-hex}}{{^base10-hex}}{{base00-hex}}{{/base10-hex}}"
-local gui11 = "#{{base11-hex}}{{^base11-hex}}{{base00-hex}}{{/base11-hex}}"
-local gui12 = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}"
-local gui13 = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}"
-local gui14 = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}"
-local gui15 = "#{{base15-hex}}{{^base15-hex}}{{base0C-hex}}{{/base15-hex}}"
-local gui16 = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}"
-local gui17 = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}"
+local gui10 = "#feffff"
+local gui11 = "#feffff"
+local gui12 = "#27d9d5"
+local gui13 = "#5ba2b6"
+local gui14 = "#f80059"
+local gui15 = "#c33678"
+local gui16 = "#47f9f5"
+local gui17 = "#bd0152"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -61,18 +61,18 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = {{#base12-hex}}9{{/base12-hex}}{{^base12-hex}}1{{/base12-hex}}
-local cterm13  = {{#base13-hex}}11{{/base13-hex}}{{^base13-hex}}3{{/base13-hex}}
-local cterm14  = {{#base14-hex}}10{{/base14-hex}}{{^base14-hex}}2{{/base14-hex}}
-local cterm15  = {{#base15-hex}}14{{/base15-hex}}{{^base15-hex}}6{{/base15-hex}}
-local cterm16  = {{#base16-hex}}12{{/base16-hex}}{{^base16-hex}}4{{/base16-hex}}
-local cterm17  = {{#base17-hex}}13{{/base17-hex}}{{^base17-hex}}5{{/base17-hex}}
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "{{scheme-slug}}"
+vim.g.colors_name = "heetch-light"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

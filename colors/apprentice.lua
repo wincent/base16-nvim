@@ -1,4 +1,4 @@
--- {{scheme-name}} scheme by {{scheme-author}}
+-- Apprentice scheme by romainl
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#{{base00-hex}}"
-local gui01 = "#{{base01-hex}}"
-local gui02 = "#{{base02-hex}}"
-local gui03 = "#{{base03-hex}}"
-local gui04 = "#{{base04-hex}}"
-local gui05 = "#{{base05-hex}}"
-local gui06 = "#{{base06-hex}}"
-local gui07 = "#{{base07-hex}}"
-local gui08 = "#{{base08-hex}}"
-local gui09 = "#{{base09-hex}}"
-local gui0A = "#{{base0A-hex}}"
-local gui0B = "#{{base0B-hex}}"
-local gui0C = "#{{base0C-hex}}"
-local gui0D = "#{{base0D-hex}}"
-local gui0E = "#{{base0E-hex}}"
-local gui0F = "#{{base0F-hex}}"
+local gui00 = "#262626"
+local gui01 = "#AF5F5F"
+local gui02 = "#5F875F"
+local gui03 = "#87875F"
+local gui04 = "#5F87AF"
+local gui05 = "#5F5F87"
+local gui06 = "#5F8787"
+local gui07 = "#6C6C6C"
+local gui08 = "#444444"
+local gui09 = "#FF8700"
+local gui0A = "#87AF87"
+local gui0B = "#FFFFAF"
+local gui0C = "#87AFD7"
+local gui0D = "#8787AF"
+local gui0E = "#5FAFAF"
+local gui0F = "#BCBCBC"
 
 -- Base24 colors.
-local gui10 = "#{{base10-hex}}{{^base10-hex}}{{base00-hex}}{{/base10-hex}}"
-local gui11 = "#{{base11-hex}}{{^base11-hex}}{{base00-hex}}{{/base11-hex}}"
-local gui12 = "#{{base12-hex}}{{^base12-hex}}{{base08-hex}}{{/base12-hex}}"
-local gui13 = "#{{base13-hex}}{{^base13-hex}}{{base0A-hex}}{{/base13-hex}}"
-local gui14 = "#{{base14-hex}}{{^base14-hex}}{{base0B-hex}}{{/base14-hex}}"
-local gui15 = "#{{base15-hex}}{{^base15-hex}}{{base0C-hex}}{{/base15-hex}}"
-local gui16 = "#{{base16-hex}}{{^base16-hex}}{{base0D-hex}}{{/base16-hex}}"
-local gui17 = "#{{base17-hex}}{{^base17-hex}}{{base0E-hex}}{{/base17-hex}}"
+local gui10 = "#262626"
+local gui11 = "#262626"
+local gui12 = "#444444"
+local gui13 = "#87AF87"
+local gui14 = "#FFFFAF"
+local gui15 = "#87AFD7"
+local gui16 = "#8787AF"
+local gui17 = "#5FAFAF"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -61,18 +61,18 @@ local cterm0F = 14
 -- Base24 colors.
 local cterm10  = cterm00
 local cterm11  = cterm00
-local cterm12  = {{#base12-hex}}9{{/base12-hex}}{{^base12-hex}}1{{/base12-hex}}
-local cterm13  = {{#base13-hex}}11{{/base13-hex}}{{^base13-hex}}3{{/base13-hex}}
-local cterm14  = {{#base14-hex}}10{{/base14-hex}}{{^base14-hex}}2{{/base14-hex}}
-local cterm15  = {{#base15-hex}}14{{/base15-hex}}{{^base15-hex}}6{{/base15-hex}}
-local cterm16  = {{#base16-hex}}12{{/base16-hex}}{{^base16-hex}}4{{/base16-hex}}
-local cterm17  = {{#base17-hex}}13{{/base17-hex}}{{^base17-hex}}5{{/base17-hex}}
+local cterm12  = 9
+local cterm13  = 11
+local cterm14  = 10
+local cterm15  = 14
+local cterm16  = 12
+local cterm17  = 13
 
 vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "{{scheme-slug}}"
+vim.g.colors_name = "apprentice"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })
