@@ -1,4 +1,4 @@
--- pandora scheme by Cassandra Fox
+-- Pandora scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#131213"
-local gui01 = "#2f1823"
-local gui02 = "#472234"
-local gui03 = "#ffbee3"
-local gui04 = "#9b2a46"
-local gui05 = "#f15c99"
-local gui06 = "#81506a"
-local gui07 = "#632227"
-local gui08 = "#b00b69"
-local gui09 = "#ff9153"
-local gui0A = "#ffcc00"
-local gui0B = "#9ddf69"
-local gui0C = "#714ca6"
-local gui0D = "#008080"
-local gui0E = "#a24030"
-local gui0F = "#a24030"
+local gui00 = "#131d42"
+local gui01 = "#000000"
+local gui02 = "#3e5548"
+local gui03 = "#66786e"
+local gui04 = "#8f9b94"
+local gui05 = "#b8beba"
+local gui06 = "#e1e1e1"
+local gui07 = "#ffffff"
+local gui08 = "#ff4242"
+local gui09 = "#ffad29"
+local gui0A = "#23d7d7"
+local gui0B = "#74af68"
+local gui0C = "#23d7d7"
+local gui0D = "#338f86"
+local gui0E = "#9413e5"
+local gui0F = "#7f2121"
 
 -- Base24 colors.
-local gui10 = "#131213"
-local gui11 = "#131213"
-local gui12 = "#b00b69"
-local gui13 = "#ffcc00"
-local gui14 = "#9ddf69"
-local gui15 = "#714ca6"
-local gui16 = "#008080"
-local gui17 = "#a24030"
+local gui10 = "#293830"
+local gui11 = "#141c18"
+local gui12 = "#ff3242"
+local gui13 = "#ffb929"
+local gui14 = "#74cd68"
+local gui15 = "#00ede1"
+local gui16 = "#23d7d7"
+local gui17 = "#ff37ff"
 
 -- Base16 colors.
 local cterm00 = 0

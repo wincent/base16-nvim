@@ -1,4 +1,4 @@
--- Rebecca scheme by Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+-- Rebecca scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -14,31 +14,31 @@
 
 -- Base16 colors.
 local gui00 = "#292a44"
-local gui01 = "#663399"
-local gui02 = "#383a62"
-local gui03 = "#666699"
-local gui04 = "#a0a0c5"
-local gui05 = "#f1eff8"
-local gui06 = "#ccccff"
-local gui07 = "#53495d"
-local gui08 = "#a0a0c5"
-local gui09 = "#efe4a1"
-local gui0A = "#ae81ff"
-local gui0B = "#6dfedf"
-local gui0C = "#8eaee0"
-local gui0D = "#2de0a7"
-local gui0E = "#7aa5ff"
-local gui0F = "#ff79c6"
+local gui01 = "#12131d"
+local gui02 = "#666699"
+local gui03 = "#8585ac"
+local gui04 = "#a4a4c0"
+local gui05 = "#c3c3d4"
+local gui06 = "#e3e2e8"
+local gui07 = "#f3f2f8"
+local gui08 = "#dd7655"
+local gui09 = "#f2e7b7"
+local gui0A = "#69bffa"
+local gui0B = "#04dbb4"
+local gui0C = "#56d3c1"
+local gui0D = "#7aa5ff"
+local gui0E = "#be9bf8"
+local gui0F = "#6e3b2a"
 
 -- Base24 colors.
-local gui10 = "#292a44"
-local gui11 = "#292a44"
-local gui12 = "#a0a0c5"
-local gui13 = "#ae81ff"
-local gui14 = "#6dfedf"
-local gui15 = "#8eaee0"
-local gui16 = "#2de0a7"
-local gui17 = "#7aa5ff"
+local gui10 = "#444466"
+local gui11 = "#222233"
+local gui12 = "#ff91cd"
+local gui13 = "#fefca8"
+local gui14 = "#00e9c0"
+local gui15 = "#8bfce1"
+local gui16 = "#69bffa"
+local gui17 = "#c07ff8"
 
 -- Base16 colors.
 local cterm00 = 0

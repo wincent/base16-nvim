@@ -1,4 +1,4 @@
--- Zenburn scheme by elnawe
+-- Zenburn scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#383838"
-local gui01 = "#404040"
-local gui02 = "#606060"
-local gui03 = "#6f6f6f"
-local gui04 = "#808080"
-local gui05 = "#dcdccc"
-local gui06 = "#c0c0c0"
+local gui00 = "#3f3f3f"
+local gui01 = "#4d4d4d"
+local gui02 = "#709080"
+local gui03 = "#8ba393"
+local gui04 = "#a6b6a6"
+local gui05 = "#c1c9b9"
+local gui06 = "#dcdccc"
 local gui07 = "#ffffff"
-local gui08 = "#dca3a3"
-local gui09 = "#dfaf8f"
-local gui0A = "#e0cf9f"
-local gui0B = "#5f7f5f"
-local gui0C = "#93e0e3"
-local gui0D = "#7cb8bb"
+local gui08 = "#705050"
+local gui09 = "#f0dfaf"
+local gui0A = "#94bff3"
+local gui0B = "#60b48a"
+local gui0C = "#8cd0d3"
+local gui0D = "#506070"
 local gui0E = "#dc8cc3"
-local gui0F = "#000000"
+local gui0F = "#382828"
 
 -- Base24 colors.
-local gui10 = "#383838"
-local gui11 = "#383838"
+local gui10 = "#4a6055"
+local gui11 = "#25302a"
 local gui12 = "#dca3a3"
 local gui13 = "#e0cf9f"
-local gui14 = "#5f7f5f"
+local gui14 = "#c3bf9f"
 local gui15 = "#93e0e3"
-local gui16 = "#7cb8bb"
-local gui17 = "#dc8cc3"
+local gui16 = "#94bff3"
+local gui17 = "#ec93d3"
 
 -- Base16 colors.
 local cterm00 = 0

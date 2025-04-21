@@ -1,4 +1,4 @@
--- Atelier Sulphurpool scheme by Bram de Haan (http://atelierbramdehaan.nl)
+-- Atelier Sulphurpool scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -14,31 +14,31 @@
 
 -- Base16 colors.
 local gui00 = "#202746"
-local gui01 = "#293256"
-local gui02 = "#5e6687"
-local gui03 = "#6b7394"
-local gui04 = "#898ea4"
-local gui05 = "#979db4"
-local gui06 = "#dfe2f1"
+local gui01 = "#202746"
+local gui02 = "#6b7394"
+local gui03 = "#767d9c"
+local gui04 = "#8188a4"
+local gui05 = "#8c92ac"
+local gui06 = "#979db4"
 local gui07 = "#f5f7ff"
 local gui08 = "#c94922"
-local gui09 = "#c76b29"
-local gui0A = "#c08b30"
+local gui09 = "#c08b30"
+local gui0A = "#898ea4"
 local gui0B = "#ac9739"
 local gui0C = "#22a2c9"
 local gui0D = "#3d8fd1"
 local gui0E = "#6679cc"
-local gui0F = "#9c637a"
+local gui0F = "#642411"
 
 -- Base24 colors.
-local gui10 = "#202746"
-local gui11 = "#202746"
-local gui12 = "#c94922"
-local gui13 = "#c08b30"
-local gui14 = "#ac9739"
-local gui15 = "#22a2c9"
-local gui16 = "#3d8fd1"
-local gui17 = "#6679cc"
+local gui10 = "#474c62"
+local gui11 = "#232631"
+local gui12 = "#c76b29"
+local gui13 = "#5e6687"
+local gui14 = "#293256"
+local gui15 = "#9c637a"
+local gui16 = "#898ea4"
+local gui17 = "#dfe2f1"
 
 -- Base16 colors.
 local cterm00 = 0

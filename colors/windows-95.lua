@@ -1,4 +1,4 @@
--- Windows 95 scheme by Fergus Collins (https://github.com/C-Fergus)
+-- Windows 95 scheme by Fergus Collins (https://github.com/ferguscollins)
 --
 -- Generated from this template:
 --

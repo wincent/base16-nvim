@@ -1,4 +1,4 @@
--- Ocean scheme by Chris Kempson (https://github.com/chriskempson)
+-- Ocean scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#2b303b"
-local gui01 = "#343d46"
-local gui02 = "#4f5b66"
-local gui03 = "#65737e"
-local gui04 = "#a7adba"
-local gui05 = "#c0c5ce"
-local gui06 = "#dfe1e8"
-local gui07 = "#eff1f5"
-local gui08 = "#bf616a"
-local gui09 = "#d08770"
-local gui0A = "#ebcb8b"
-local gui0B = "#a3be8c"
-local gui0C = "#96b5b4"
-local gui0D = "#8fa1b3"
-local gui0E = "#b48ead"
-local gui0F = "#ab7967"
+local gui00 = "#224fbc"
+local gui01 = "#000000"
+local gui02 = "#666666"
+local gui03 = "#7c7c7c"
+local gui04 = "#929292"
+local gui05 = "#a8a8a8"
+local gui06 = "#bfbfbf"
+local gui07 = "#e5e5e5"
+local gui08 = "#990000"
+local gui09 = "#999900"
+local gui0A = "#0000ff"
+local gui0B = "#00a600"
+local gui0C = "#00a6b2"
+local gui0D = "#0000b2"
+local gui0E = "#b200b2"
+local gui0F = "#4c0000"
 
 -- Base24 colors.
-local gui10 = "#2b303b"
-local gui11 = "#2b303b"
-local gui12 = "#bf616a"
-local gui13 = "#ebcb8b"
-local gui14 = "#a3be8c"
-local gui15 = "#96b5b4"
-local gui16 = "#8fa1b3"
-local gui17 = "#b48ead"
+local gui10 = "#444444"
+local gui11 = "#222222"
+local gui12 = "#e50000"
+local gui13 = "#e5e500"
+local gui14 = "#00d900"
+local gui15 = "#00e5e5"
+local gui16 = "#0000ff"
+local gui17 = "#e500e5"
 
 -- Base16 colors.
 local cterm00 = 0

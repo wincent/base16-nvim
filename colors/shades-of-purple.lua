@@ -1,4 +1,4 @@
--- Shades of Purple scheme by Iolar Demartini Junior (http://github.com/demartini), based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode)
+-- Shades Of Purple scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#1e1e3f"
-local gui01 = "#43d426"
-local gui02 = "#f1d000"
-local gui03 = "#808080"
-local gui04 = "#6871ff"
-local gui05 = "#c7c7c7"
-local gui06 = "#ff77ff"
-local gui07 = "#ffffff"
+local gui00 = "#1e1d40"
+local gui01 = "#000000"
+local gui02 = "#676767"
+local gui03 = "#7f7f7f"
+local gui04 = "#979797"
+local gui05 = "#afafaf"
+local gui06 = "#c7c7c7"
+local gui07 = "#feffff"
 local gui08 = "#d90429"
-local gui09 = "#f92a1c"
-local gui0A = "#ffe700"
+local gui09 = "#ffe700"
+local gui0A = "#6871ff"
 local gui0B = "#3ad900"
 local gui0C = "#00c5c7"
 local gui0D = "#6943ff"
-local gui0E = "#ff2c70"
-local gui0F = "#79e8fb"
+local gui0E = "#ff2b70"
+local gui0F = "#6c0214"
 
 -- Base24 colors.
-local gui10 = "#1e1e3f"
-local gui11 = "#1e1e3f"
-local gui12 = "#d90429"
-local gui13 = "#ffe700"
-local gui14 = "#3ad900"
-local gui15 = "#00c5c7"
-local gui16 = "#6943ff"
-local gui17 = "#ff2c70"
+local gui10 = "#444444"
+local gui11 = "#222222"
+local gui12 = "#f9291b"
+local gui13 = "#f1d000"
+local gui14 = "#42d425"
+local gui15 = "#79e7fa"
+local gui16 = "#6871ff"
+local gui17 = "#ff76ff"
 
 -- Base16 colors.
 local cterm00 = 0

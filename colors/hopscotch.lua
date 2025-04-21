@@ -1,4 +1,4 @@
--- Hopscotch scheme by Jan T. Sott
+-- Hopscotch scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -14,31 +14,31 @@
 
 -- Base16 colors.
 local gui00 = "#322931"
-local gui01 = "#433b42"
-local gui02 = "#5c545b"
-local gui03 = "#797379"
-local gui04 = "#989498"
-local gui05 = "#b9b5b8"
-local gui06 = "#d5d3d5"
+local gui01 = "#322931"
+local gui02 = "#797379"
+local gui03 = "#898388"
+local gui04 = "#999498"
+local gui05 = "#a9a4a8"
+local gui06 = "#b9b5b8"
 local gui07 = "#ffffff"
 local gui08 = "#dd464c"
-local gui09 = "#fd8b19"
-local gui0A = "#fdcc59"
+local gui09 = "#fdcc59"
+local gui0A = "#989498"
 local gui0B = "#8fc13e"
 local gui0C = "#149b93"
 local gui0D = "#1290bf"
 local gui0E = "#c85e7c"
-local gui0F = "#b33508"
+local gui0F = "#6e2326"
 
 -- Base24 colors.
-local gui10 = "#322931"
-local gui11 = "#322931"
-local gui12 = "#dd464c"
-local gui13 = "#fdcc59"
-local gui14 = "#8fc13e"
-local gui15 = "#149b93"
-local gui16 = "#1290bf"
-local gui17 = "#c85e7c"
+local gui10 = "#504c50"
+local gui11 = "#282628"
+local gui12 = "#fd8b19"
+local gui13 = "#5c545b"
+local gui14 = "#433b42"
+local gui15 = "#b33508"
+local gui16 = "#989498"
+local gui17 = "#d5d3d5"
 
 -- Base16 colors.
 local cterm00 = 0

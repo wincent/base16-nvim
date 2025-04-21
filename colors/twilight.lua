@@ -1,4 +1,4 @@
--- Twilight scheme by David Hart (https://github.com/hartbit)
+-- Twilight scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#1e1e1e"
-local gui01 = "#323537"
-local gui02 = "#464b50"
-local gui03 = "#5f5a60"
-local gui04 = "#838184"
-local gui05 = "#a7a7a7"
-local gui06 = "#c3c3c3"
-local gui07 = "#ffffff"
-local gui08 = "#cf6a4c"
-local gui09 = "#cda869"
-local gui0A = "#f9ee98"
-local gui0B = "#8f9d6a"
-local gui0C = "#afc4db"
-local gui0D = "#7587a6"
-local gui0E = "#9b859d"
-local gui0F = "#9b703f"
+local gui00 = "#141414"
+local gui01 = "#141414"
+local gui02 = "#262626"
+local gui03 = "#5c5c51"
+local gui04 = "#92927c"
+local gui05 = "#c8c8a7"
+local gui06 = "#feffd3"
+local gui07 = "#feffd3"
+local gui08 = "#c06c43"
+local gui09 = "#c2a86c"
+local gui0A = "#5a5d61"
+local gui0B = "#afb979"
+local gui0C = "#778284"
+local gui0D = "#444649"
+local gui0E = "#b4be7b"
+local gui0F = "#603621"
 
 -- Base24 colors.
-local gui10 = "#1e1e1e"
-local gui11 = "#1e1e1e"
-local gui12 = "#cf6a4c"
-local gui13 = "#f9ee98"
-local gui14 = "#8f9d6a"
-local gui15 = "#afc4db"
-local gui16 = "#7587a6"
-local gui17 = "#9b859d"
+local gui10 = "#191919"
+local gui11 = "#0c0c0c"
+local gui12 = "#dd7c4c"
+local gui13 = "#e1c47d"
+local gui14 = "#cbd88c"
+local gui15 = "#8a989a"
+local gui16 = "#5a5d61"
+local gui17 = "#d0db8e"
 
 -- Base16 colors.
 local cterm00 = 0

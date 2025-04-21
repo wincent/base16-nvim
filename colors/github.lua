@@ -1,4 +1,4 @@
--- Github scheme by FredHappyface (https://github.com/fredHappyface)
+-- Github Light scheme by Tinted Theming (https://github.com/tinted-theming)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#f4f4f4"
-local gui01 = "#3e3e3e"
-local gui02 = "#666666"
-local gui03 = "#8c8c8c"
-local gui04 = "#b2b2b2"
-local gui05 = "#d8d8d8"
-local gui06 = "#ffffff"
-local gui07 = "#ffffff"
-local gui08 = "#970b16"
-local gui09 = "#f8eec7"
-local gui0A = "#2e6cba"
-local gui0B = "#07962a"
-local gui0C = "#89d1ec"
-local gui0D = "#003e8a"
-local gui0E = "#e94691"
-local gui0F = "#4b050b"
+local gui00 = "#eaeef2"
+local gui01 = "#d0d7de"
+local gui02 = "#afb8c1"
+local gui03 = "#8c959f"
+local gui04 = "#6e7781"
+local gui05 = "#424a53"
+local gui06 = "#32383f"
+local gui07 = "#1f2328"
+local gui08 = "#fa4549"
+local gui09 = "#e16f24"
+local gui0A = "#bf8700"
+local gui0B = "#2da44e"
+local gui0C = "#339D9B"
+local gui0D = "#218bff"
+local gui0E = "#a475f9"
+local gui0F = "#4d2d00"
 
 -- Base24 colors.
-local gui10 = "#444444"
-local gui11 = "#222222"
-local gui12 = "#de0000"
-local gui13 = "#f1d007"
-local gui14 = "#87d5a2"
-local gui15 = "#1cfafe"
-local gui16 = "#2e6cba"
-local gui17 = "#ffa29f"
+local gui10 = "#1f2328"
+local gui11 = "#000000"
+local gui12 = "#ff8182"
+local gui13 = "#d4a72c"
+local gui14 = "#4ac26b"
+local gui15 = "#49BCB7"
+local gui16 = "#54aeff"
+local gui17 = "#c297ff"
 
 -- Base16 colors.
 local cterm00 = 0

@@ -1,4 +1,4 @@
--- Material scheme by Nate Peterson
+-- Material scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#263238"
-local gui01 = "#2E3C43"
-local gui02 = "#314549"
-local gui03 = "#546E7A"
-local gui04 = "#B2CCD6"
-local gui05 = "#EEFFFF"
-local gui06 = "#EEFFFF"
-local gui07 = "#FFFFFF"
-local gui08 = "#F07178"
-local gui09 = "#F78C6C"
-local gui0A = "#FFCB6B"
-local gui0B = "#C3E88D"
-local gui0C = "#89DDFF"
-local gui0D = "#82AAFF"
-local gui0E = "#C792EA"
-local gui0F = "#FF5370"
+local gui00 = "#eaeaea"
+local gui01 = "#212121"
+local gui02 = "#424242"
+local gui03 = "#6d6d6d"
+local gui04 = "#989898"
+local gui05 = "#c3c3c3"
+local gui06 = "#eeeeee"
+local gui07 = "#d8d8d8"
+local gui08 = "#b7141e"
+local gui09 = "#f5971d"
+local gui0A = "#53a4f3"
+local gui0B = "#457b23"
+local gui0C = "#0e707c"
+local gui0D = "#134eb2"
+local gui0E = "#550087"
+local gui0F = "#5b0a0f"
 
 -- Base24 colors.
-local gui10 = "#263238"
-local gui11 = "#263238"
-local gui12 = "#F07178"
-local gui13 = "#FFCB6B"
-local gui14 = "#C3E88D"
-local gui15 = "#89DDFF"
-local gui16 = "#82AAFF"
-local gui17 = "#C792EA"
+local gui10 = "#2c2c2c"
+local gui11 = "#161616"
+local gui12 = "#e83a3f"
+local gui13 = "#fee92e"
+local gui14 = "#7aba39"
+local gui15 = "#26bad1"
+local gui16 = "#53a4f3"
+local gui17 = "#a94dbb"
 
 -- Base16 colors.
 local cterm00 = 0

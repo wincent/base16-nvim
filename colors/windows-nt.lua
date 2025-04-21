@@ -1,4 +1,4 @@
--- Windows NT scheme by Fergus Collins (https://github.com/C-Fergus)
+-- Windows NT scheme by Fergus Collins (https://github.com/ferguscollins)
 --
 -- Generated from this template:
 --
