@@ -2,7 +2,7 @@
 
 ## Update procedure
 
-In order to always be testing the latest and greatest version of these color schemes, I add this repo as a submodule to [my dotfiles repository](https://github.com/wincent/wincent), and work out of there. [The script for actually rebuilding schemes](https://github.com/wincent/wincent/blob/main/support/tinted-builder.rb) is stored in the superproject.
+In order to always be testing the latest and greatest version of these color schemes, I add this repo as a submodule to [my dotfiles repository](https://github.com/wincent/wincent), and work out of there. [The script for actually rebuilding schemes](https://github.com/wincent/wincent/blob/main/bin/update-themes) is stored in the superproject.
 
 ### Tracking upstream template updates
 
@@ -16,7 +16,7 @@ The basic pattern is:
 
 1.  Make the changes to [the `templates/default.mustache` template](templates/default.mustache) in this repo (ie. in the submodule). This requires a decision for how to port the Vimscript of each upstream change into Lua.
 
-2.  Run `support/tinted-builder.rb` in the superproject.
+2.  Run `bin/update-themes` in the superproject.
 
 3.  Commit the changes in the base16-nvim submodule:
 

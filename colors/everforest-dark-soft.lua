@@ -1,4 +1,4 @@
--- vice scheme by Thomas Leon Highbaugh thighbaugh@zoho.com
+-- Everforest Dark Soft scheme by Sainnhe Park (https://github.com/sainnhe)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#17191E"
-local gui01 = "#22262d"
-local gui02 = "#3c3f4c"
-local gui03 = "#383a47"
-local gui04 = "#555e70"
-local gui05 = "#8b9cbe"
-local gui06 = "#b2bfd9"
-local gui07 = "#f4f4f7"
-local gui08 = "#ff29a8"
-local gui09 = "#85ffe0"
-local gui0A = "#f0ffaa"
-local gui0B = "#0badff"
-local gui0C = "#8265ff"
-local gui0D = "#00eaff"
-local gui0E = "#00f6d9"
-local gui0F = "#ff3d81"
+local gui00 = "#333c43"
+local gui01 = "#3a464c"
+local gui02 = "#4d5960"
+local gui03 = "#859289"
+local gui04 = "#9da9a0"
+local gui05 = "#d3c6aa"
+local gui06 = "#ddd8be"
+local gui07 = "#f3ead3"
+local gui08 = "#e67e80"
+local gui09 = "#e69875"
+local gui0A = "#dbbc7f"
+local gui0B = "#a7c080"
+local gui0C = "#83c092"
+local gui0D = "#7fbbb3"
+local gui0E = "#d699b6"
+local gui0F = "#9da9a0"
 
 -- Base24 colors.
-local gui10 = "#17191E"
-local gui11 = "#17191E"
-local gui12 = "#ff29a8"
-local gui13 = "#f0ffaa"
-local gui14 = "#0badff"
-local gui15 = "#8265ff"
-local gui16 = "#00eaff"
-local gui17 = "#00f6d9"
+local gui10 = "#333c43"
+local gui11 = "#333c43"
+local gui12 = "#e67e80"
+local gui13 = "#dbbc7f"
+local gui14 = "#a7c080"
+local gui15 = "#83c092"
+local gui16 = "#7fbbb3"
+local gui17 = "#d699b6"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "vice"
+vim.g.colors_name = "everforest-dark-soft"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })
