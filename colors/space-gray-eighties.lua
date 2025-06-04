@@ -1,4 +1,4 @@
--- Space Grey Eighties scheme by FredHappyface (https://github.com/fredHappyface)
+-- Space Gray Eighties scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --

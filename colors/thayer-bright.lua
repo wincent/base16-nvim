@@ -1,4 +1,4 @@
--- Thayler Bright scheme by FredHappyface (https://github.com/fredHappyface)
+-- Thayer Bright scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --

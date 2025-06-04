@@ -1,4 +1,4 @@
--- Space Gray Eighties Dull scheme by FredHappyface (https://github.com/fredHappyface)
+-- Chicago Night scheme by Wendell, Ryan <ryanjwendell@gmail.com>
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#212121"
-local gui01 = "#15171c"
-local gui02 = "#555555"
-local gui03 = "#6c6d70"
-local gui04 = "#83868b"
-local gui05 = "#9a9fa6"
-local gui06 = "#b2b8c2"
-local gui07 = "#ffffff"
-local gui08 = "#b14956"
-local gui09 = "#c6725a"
-local gui0A = "#5485c0"
-local gui0B = "#91b377"
-local gui0C = "#7fcccb"
-local gui0D = "#7b8fa4"
-local gui0E = "#a5779e"
-local gui0F = "#58242b"
+local gui00 = "#1e2a24"
+local gui01 = "#2a3b32"
+local gui02 = "#364c40"
+local gui03 = "#5f7368"
+local gui04 = "#8a9a91"
+local gui05 = "#a7b8af"
+local gui06 = "#c1cdc7"
+local gui07 = "#dbe3de"
+local gui08 = "#c60c30"
+local gui09 = "#f9461c"
+local gui0A = "#f9e300"
+local gui0B = "#009b3a"
+local gui0C = "#00a1de"
+local gui0D = "#522398"
+local gui0E = "#e27ea6"
+local gui0F = "#62361b"
 
 -- Base24 colors.
-local gui10 = "#383838"
-local gui11 = "#1c1c1c"
-local gui12 = "#ec5f67"
-local gui13 = "#fdc253"
-local gui14 = "#88e985"
-local gui15 = "#58c2c0"
-local gui16 = "#5485c0"
-local gui17 = "#bf83c0"
+local gui10 = "#1e2a24"
+local gui11 = "#1e2a24"
+local gui12 = "#c60c30"
+local gui13 = "#f9e300"
+local gui14 = "#009b3a"
+local gui15 = "#00a1de"
+local gui16 = "#522398"
+local gui17 = "#e27ea6"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "space-gray-eighties-dull"
+vim.g.colors_name = "chicago-night"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

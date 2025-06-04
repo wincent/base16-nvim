@@ -1,4 +1,4 @@
--- Medailion scheme by FredHappyface (https://github.com/fredHappyface)
+-- Medallion scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --

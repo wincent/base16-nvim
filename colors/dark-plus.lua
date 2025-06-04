@@ -1,4 +1,4 @@
--- Dark+ scheme by FredHappyface (https://github.com/fredHappyface)
+-- Dark Plus scheme by FredHappyface (https://github.com/fredHappyface)
 --
 -- Generated from this template:
 --
