@@ -1,4 +1,4 @@
--- Mountain scheme by Stefan Weigl-Bosker (https://github.com/sweiglbosker), based on Mountain Theme (https://github.com/mountain-theme/Mountain)
+-- 0x96f scheme by Filip Janevski (https://0x96f.dev/theme)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#0f0f0f"
-local gui01 = "#191919"
-local gui02 = "#262626"
-local gui03 = "#393939"
-local gui04 = "#4c4c4c"
-local gui05 = "#cacaca"
-local gui06 = "#e7e7e7"
-local gui07 = "#f0f0f0"
-local gui08 = "#ac8a8c"
-local gui09 = "#c6a679"
-local gui0A = "#aca98a"
-local gui0B = "#8aac8b"
-local gui0C = "#8aabac"
-local gui0D = "#8f8aac"
-local gui0E = "#ac8aac"
-local gui0F = "#ac8a8c"
+local gui00 = "#262427"
+local gui01 = "#3b393c"
+local gui02 = "#514f52"
+local gui03 = "#676567"
+local gui04 = "#7c7b7d"
+local gui05 = "#fcfcfc"
+local gui06 = "#eae9eb"
+local gui07 = "#fcfcfc"
+local gui08 = "#ff7272"
+local gui09 = "#fc9d6f"
+local gui0A = "#ffca58"
+local gui0B = "#bcdf59"
+local gui0C = "#aee8f4"
+local gui0D = "#49cae4"
+local gui0E = "#a093e2"
+local gui0F = "#ff8787"
 
 -- Base24 colors.
-local gui10 = "#0d0d0d"
-local gui11 = "#0a0a0a"
-local gui12 = "#c49ea0"
-local gui13 = "#c4c19e"
-local gui14 = "#9ec49f"
-local gui15 = "#9ec3c4"
-local gui16 = "#a39ec4"
-local gui17 = "#c49ec4"
+local gui10 = "#1e1d1f"
+local gui11 = "#0f0e10"
+local gui12 = "#ff8787"
+local gui13 = "#ffd271"
+local gui14 = "#c6e472"
+local gui15 = "#baebf6"
+local gui16 = "#64d2e8"
+local gui17 = "#aea3e6"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "mountain"
+vim.g.colors_name = "0x96f"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })
