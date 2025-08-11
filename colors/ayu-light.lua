@@ -1,4 +1,4 @@
--- Ayu Light scheme by FredHappyface (https://github.com/fredHappyface)
+-- Ayu Light scheme by Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#fafafa"
-local gui01 = "#000000"
-local gui02 = "#323232"
-local gui03 = "#656565"
-local gui04 = "#989898"
-local gui05 = "#cbcbcb"
-local gui06 = "#ffffff"
-local gui07 = "#ffffff"
-local gui08 = "#ff3333"
-local gui09 = "#f29718"
-local gui0A = "#73d8ff"
-local gui0B = "#86b300"
-local gui0C = "#4dbf99"
-local gui0D = "#41a6d9"
-local gui0E = "#f07178"
-local gui0F = "#7f1919"
+local gui00 = "#f8f9fa"
+local gui01 = "#edeff1"
+local gui02 = "#d2d4d8"
+local gui03 = "#a0a6ac"
+local gui04 = "#8A9199"
+local gui05 = "#5c6166"
+local gui06 = "#4e5257"
+local gui07 = "#404447"
+local gui08 = "#f07171"
+local gui09 = "#fa8d3e"
+local gui0A = "#f2ae49"
+local gui0B = "#6cbf49"
+local gui0C = "#4cbf99"
+local gui0D = "#399ee6"
+local gui0E = "#a37acc"
+local gui0F = "#e6ba7e"
 
 -- Base24 colors.
-local gui10 = "#212121"
-local gui11 = "#101010"
-local gui12 = "#ff6565"
-local gui13 = "#ffc94a"
-local gui14 = "#b8e532"
-local gui15 = "#7ff1cb"
-local gui16 = "#73d8ff"
-local gui17 = "#ffa3aa"
+local gui10 = "#f9f9f9"
+local gui11 = "#ffffff"
+local gui12 = "#ff7383"
+local gui13 = "#ffaa33"
+local gui14 = "#86b300"
+local gui15 = "#55b4d4"
+local gui16 = "#478acc"
+local gui17 = "#b595d6"
 
 -- Base16 colors.
 local cterm00 = 0

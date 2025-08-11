@@ -1,4 +1,4 @@
--- Ayu Dark scheme by Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
+-- Charcoal Dark scheme by Mubin Muhammad (https://github.com/mubin6th)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#0b0e14"
-local gui01 = "#131721"
-local gui02 = "#202229"
-local gui03 = "#3e4b59"
-local gui04 = "#bfbdb6"
-local gui05 = "#e6e1cf"
-local gui06 = "#ece8db"
-local gui07 = "#f2f0e7"
-local gui08 = "#f07178"
-local gui09 = "#ff8f40"
-local gui0A = "#ffb454"
-local gui0B = "#aad94c"
-local gui0C = "#95e6cb"
-local gui0D = "#59c2ff"
-local gui0E = "#d2a6ff"
-local gui0F = "#e6b450"
+local gui00 = "#120f09"
+local gui01 = "#1e1812"
+local gui02 = "#35291d"
+local gui03 = "#66553f"
+local gui04 = "#a28662"
+local gui05 = "#c0a179"
+local gui06 = "#d6b891"
+local gui07 = "#292016"
+local gui08 = "#887254"
+local gui09 = "#d6b891"
+local gui0A = "#c0a179"
+local gui0B = "#927a60"
+local gui0C = "#a28662"
+local gui0D = "#d6b891"
+local gui0E = "#a28662"
+local gui0F = "#887254"
 
 -- Base24 colors.
-local gui10 = "#0a0d13"
-local gui11 = "#06070A"
-local gui12 = "#f26d78"
-local gui13 = "#e6b673"
-local gui14 = "#7fd962"
-local gui15 = "#39bae6"
-local gui16 = "#73b8ff"
-local gui17 = "#ddbcff"
+local gui10 = "#120f09"
+local gui11 = "#120f09"
+local gui12 = "#887254"
+local gui13 = "#c0a179"
+local gui14 = "#927a60"
+local gui15 = "#a28662"
+local gui16 = "#d6b891"
+local gui17 = "#a28662"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "ayu-dark"
+vim.g.colors_name = "charcoal-dark"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

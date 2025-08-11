@@ -1,4 +1,4 @@
--- Ayu Dark scheme by Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
+-- Linux VT scheme by j-c-m (https://github.com/j-c-m/)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#0b0e14"
-local gui01 = "#131721"
-local gui02 = "#202229"
-local gui03 = "#3e4b59"
-local gui04 = "#bfbdb6"
-local gui05 = "#e6e1cf"
-local gui06 = "#ece8db"
-local gui07 = "#f2f0e7"
-local gui08 = "#f07178"
-local gui09 = "#ff8f40"
-local gui0A = "#ffb454"
-local gui0B = "#aad94c"
-local gui0C = "#95e6cb"
-local gui0D = "#59c2ff"
-local gui0E = "#d2a6ff"
-local gui0F = "#e6b450"
+local gui00 = "#000000"
+local gui01 = "#333333"
+local gui02 = "#444444"
+local gui03 = "#555555"
+local gui04 = "#888888"
+local gui05 = "#AAAAAA"
+local gui06 = "#CCCCCC"
+local gui07 = "#FFFFFF"
+local gui08 = "#AA0000"
+local gui09 = "#FF5555"
+local gui0A = "#FFFF55"
+local gui0B = "#00AA00"
+local gui0C = "#00AAAA"
+local gui0D = "#5555FF"
+local gui0E = "#FF55FF"
+local gui0F = "#AA5500"
 
 -- Base24 colors.
-local gui10 = "#0a0d13"
-local gui11 = "#06070A"
-local gui12 = "#f26d78"
-local gui13 = "#e6b673"
-local gui14 = "#7fd962"
-local gui15 = "#39bae6"
-local gui16 = "#73b8ff"
-local gui17 = "#ddbcff"
+local gui10 = "#000000"
+local gui11 = "#000000"
+local gui12 = "#AA0000"
+local gui13 = "#FFFF55"
+local gui14 = "#00AA00"
+local gui15 = "#00AAAA"
+local gui16 = "#5555FF"
+local gui17 = "#FF55FF"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "ayu-dark"
+vim.g.colors_name = "linux-vt"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

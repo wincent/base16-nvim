@@ -1,4 +1,4 @@
--- Ayu Mirage scheme by Khue Nguyen <Z5483Y@gmail.com>
+-- Ayu Mirage scheme by Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#171B24"
-local gui01 = "#1F2430"
-local gui02 = "#242936"
-local gui03 = "#707A8C"
-local gui04 = "#8A9199"
-local gui05 = "#CCCAC2"
-local gui06 = "#D9D7CE"
-local gui07 = "#F3F4F5"
-local gui08 = "#F28779"
-local gui09 = "#FFAD66"
-local gui0A = "#FFD173"
-local gui0B = "#D5FF80"
-local gui0C = "#95E6CB"
-local gui0D = "#5CCFE6"
-local gui0E = "#D4BFFF"
-local gui0F = "#F29E74"
+local gui00 = "#1f2430"
+local gui01 = "#242936"
+local gui02 = "#323844"
+local gui03 = "#4A5059"
+local gui04 = "#707a8c"
+local gui05 = "#cccac2"
+local gui06 = "#d9d7ce"
+local gui07 = "#f3f4f5"
+local gui08 = "#f28779"
+local gui09 = "#ffad66"
+local gui0A = "#ffd173"
+local gui0B = "#d5ff80"
+local gui0C = "#95e6cb"
+local gui0D = "#73d0ff"
+local gui0E = "#d4bfff"
+local gui0F = "#f27983"
 
 -- Base24 colors.
-local gui10 = "#171B24"
-local gui11 = "#171B24"
-local gui12 = "#F28779"
-local gui13 = "#FFD173"
-local gui14 = "#D5FF80"
-local gui15 = "#95E6CB"
-local gui16 = "#5CCFE6"
-local gui17 = "#D4BFFF"
+local gui10 = "#171b24"
+local gui11 = "#1a1f29"
+local gui12 = "#ff6666"
+local gui13 = "#ffcc66"
+local gui14 = "#87d963"
+local gui15 = "#5ccfe6"
+local gui16 = "#80b0ff"
+local gui17 = "#b692ff"
 
 -- Base16 colors.
 local cterm00 = 0
