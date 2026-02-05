@@ -1,4 +1,4 @@
--- Kanagawa Dragon scheme by Stefan Weigl-Bosker (https://github.com/sweiglbosker), Tommaso Laurenzi (https://github.com/rebelot/kanagawa.nvim)
+-- Yesterday Night scheme by FroZnShiva (https://github.com/FroZnShiva)
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#181616"
-local gui01 = "#282727"
-local gui02 = "#393836"
-local gui03 = "#625e5a"
-local gui04 = "#737c73"
-local gui05 = "#c5c9c5"
-local gui06 = "#c8c093"
-local gui07 = "#c5c9c5"
-local gui08 = "#c4746e"
-local gui09 = "#b6927b"
-local gui0A = "#c4b28a"
-local gui0B = "#8a9a7b"
-local gui0C = "#8ea4a2"
-local gui0D = "#8ba4b0"
-local gui0E = "#a292a3"
-local gui0F = "#b98d7b"
+local gui00 = "#343D46"
+local gui01 = "#4F5B66"
+local gui02 = "#65737E"
+local gui03 = "#A7ADBA"
+local gui04 = "#C0C5CE"
+local gui05 = "#DFE1E8"
+local gui06 = "#EFF1F5"
+local gui07 = "#FFFFFF"
+local gui08 = "#CC6666"
+local gui09 = "#DE935F"
+local gui0A = "#F0C674"
+local gui0B = "#B5BD68"
+local gui0C = "#8ABEB7"
+local gui0D = "#81A2BE"
+local gui0E = "#B294BB"
+local gui0F = "#A3685A"
 
 -- Base24 colors.
-local gui10 = "#12120f"
-local gui11 = "#0d0c0c"
-local gui12 = "#e46876"
-local gui13 = "#e6c384"
-local gui14 = "#87a987"
-local gui15 = "#7aa89f"
-local gui16 = "#7fb4ca"
-local gui17 = "#938aa9"
+local gui10 = "#343D46"
+local gui11 = "#343D46"
+local gui12 = "#CC6666"
+local gui13 = "#F0C674"
+local gui14 = "#B5BD68"
+local gui15 = "#8ABEB7"
+local gui16 = "#81A2BE"
+local gui17 = "#B294BB"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "kanagawa-dragon"
+vim.g.colors_name = "yesterday-night"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })

@@ -1,4 +1,4 @@
--- Kanagawa Dragon scheme by Stefan Weigl-Bosker (https://github.com/sweiglbosker), Tommaso Laurenzi (https://github.com/rebelot/kanagawa.nvim)
+-- Eldritch scheme by https://github.com/eldritch-theme
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#181616"
-local gui01 = "#282727"
-local gui02 = "#393836"
-local gui03 = "#625e5a"
-local gui04 = "#737c73"
-local gui05 = "#c5c9c5"
-local gui06 = "#c8c093"
-local gui07 = "#c5c9c5"
-local gui08 = "#c4746e"
-local gui09 = "#b6927b"
-local gui0A = "#c4b28a"
-local gui0B = "#8a9a7b"
-local gui0C = "#8ea4a2"
-local gui0D = "#8ba4b0"
-local gui0E = "#a292a3"
-local gui0F = "#b98d7b"
+local gui00 = "#212337"
+local gui01 = "#323449"
+local gui02 = "#3b4261"
+local gui03 = "#7081d0"
+local gui04 = "#a1abe0"
+local gui05 = "#ebfafa"
+local gui06 = "#f0f2f4"
+local gui07 = "#ffffff"
+local gui08 = "#f16c75"
+local gui09 = "#f7c67f"
+local gui0A = "#f1fc79"
+local gui0B = "#37f499"
+local gui0C = "#04d1f9"
+local gui0D = "#39ddfd"
+local gui0E = "#a48cf2"
+local gui0F = "#f265b5"
 
 -- Base24 colors.
-local gui10 = "#12120f"
-local gui11 = "#0d0c0c"
-local gui12 = "#e46876"
-local gui13 = "#e6c384"
-local gui14 = "#87a987"
-local gui15 = "#7aa89f"
-local gui16 = "#7fb4ca"
-local gui17 = "#938aa9"
+local gui10 = "#171928"
+local gui11 = "#0e0f1a"
+local gui12 = "#f89a9d"
+local gui13 = "#f9e9a1"
+local gui14 = "#6fffc1"
+local gui15 = "#6ce9ff"
+local gui16 = "#7ae9ff"
+local gui17 = "#d4b3ff"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "kanagawa-dragon"
+vim.g.colors_name = "eldritch"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })
