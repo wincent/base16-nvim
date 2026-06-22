@@ -1,4 +1,4 @@
--- Github Dark scheme by Tinted Theming (https://github.com/tinted-theming)
+-- Ocote scheme by Teshre
 --
 -- Generated from this template:
 --
@@ -13,32 +13,32 @@
 --   by the Tinted Theming contributors.
 
 -- Base16 colors.
-local gui00 = "#0d1117"
-local gui01 = "#161b22"
-local gui02 = "#484f58"
-local gui03 = "#6e7681"
-local gui04 = "#8b949e"
-local gui05 = "#c9d1d9"
-local gui06 = "#f0f6fc"
-local gui07 = "#ffffff"
-local gui08 = "#ffa657"
-local gui09 = "#79c0ff"
-local gui0A = "#bb8009"
-local gui0B = "#a5d6ff"
-local gui0C = "#7ee787"
-local gui0D = "#d2a8ff"
-local gui0E = "#ff7b72"
-local gui0F = "#ffa198"
+local gui00 = "#14100C"
+local gui01 = "#211B13"
+local gui02 = "#3A2E1C"
+local gui03 = "#6B6253"
+local gui04 = "#A99F8D"
+local gui05 = "#E7DCC6"
+local gui06 = "#F1E9D9"
+local gui07 = "#FAF6EC"
+local gui08 = "#E8635A"
+local gui09 = "#E8843A"
+local gui0A = "#E8B43A"
+local gui0B = "#7DC97A"
+local gui0C = "#6DD8C8"
+local gui0D = "#82A6E0"
+local gui0E = "#C58AE0"
+local gui0F = "#4A3E2C"
 
 -- Base24 colors.
-local gui10 = "#010409"
-local gui11 = "#000000"
-local gui12 = "#ff7b72"
-local gui13 = "#d29922"
-local gui14 = "#3fb950"
-local gui15 = "#33B3AE"
-local gui16 = "#58a6ff"
-local gui17 = "#bc8cff"
+local gui10 = "#14100C"
+local gui11 = "#14100C"
+local gui12 = "#E8635A"
+local gui13 = "#E8B43A"
+local gui14 = "#7DC97A"
+local gui15 = "#6DD8C8"
+local gui16 = "#82A6E0"
+local gui17 = "#C58AE0"
 
 -- Base16 colors.
 local cterm00 = 0
@@ -72,7 +72,7 @@ vim.cmd [[
   highlight clear
   syntax reset
 ]]
-vim.g.colors_name = "github-dark"
+vim.g.colors_name = "ocote"
 
 -- Vim editor colors
 vim.api.nvim_set_hl(0, 'Normal', { fg = gui05, bg = gui00, ctermfg = cterm05, ctermbg = cterm00 })
